@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Roca';
+    src: url('/fonts/Roca.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'galpike';
+    src: url('/fonts/galpike.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'FontTwo';
+    src: url('/fonts/FontTwo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'FontThree';
+    src: url('/fonts/FontThree.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
