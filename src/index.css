@@ -11,14 +11,14 @@
   
   @font-face {
     font-family: 'galpike';
-    src: url('/fonts/galpike.otf') format('truetype');
+    src: url('/fonts/Galpike.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'FontTwo';
-    src: url('/fonts/FontTwo.ttf') format('truetype');
+    font-family: 'mioge';
+    src: url('/fonts/Mioge.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }

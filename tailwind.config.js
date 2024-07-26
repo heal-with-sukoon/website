@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         Roca: ['Roca', 'sans-serif'],
         galpike : ['galpike','sans-serif'],
+        mioge : ['mioge' , 'sans-serif' ]
       },
     },
   },
