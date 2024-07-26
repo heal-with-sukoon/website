@@ -1,13 +1,15 @@
-import Hero from "./components/Hero/Hero"
-import Navbar from "./components/Navbar/Navbar"
+
+import FrontPage from "./pages/FrontPage/FrontPage"
 
 function App() {
 
 
   return (
     <>
-      <Navbar/>
-      <Hero/>
+    <div className="bg-[#E3DFF8]">
+    <FrontPage/>
+    </div>
+      
     </>
   )
 }

@@ -11,6 +11,10 @@ export default {
         galpike : ['galpike','sans-serif'],
         mioge : ['mioge' , 'sans-serif' ]
       },
+      boxShadow : {
+        shd: '-95px 0px 96.5px #8B91F3',
+        
+      }
     },
   },
   

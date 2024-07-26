@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#122620] p-4 flex justify-between items-center shadow-lg">
+    <nav className="bg-[#122620] p-4 flex justify-between items-center shadow-shd">
       <a href="#" className="text-white font-bold text-6xl pl-3 font-Roca">Exhale.</a>
 
       <div className="flex items-center space-x-4">

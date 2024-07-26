@@ -3,7 +3,7 @@ import Carousel from './Carousel'
 
 function Hero() {
     return (
-        <section className="bg-[#122620] flex flex-col items-center justify-center ">
+        <section className="bg-[#122620] flex flex-col items-center justify-center rounded-bl-[299px] shadow-shd ">
             <div className="flex flex-col lg:flex-row items-center lg:items-start ml-28">
 
                 <div className="text-white mt-20 ">
