@@ -9,12 +9,23 @@ export default {
       fontFamily: {
         Roca: ['Roca', 'sans-serif'],
         galpike : ['galpike','sans-serif'],
-        mioge : ['mioge' , 'sans-serif' ]
+        mioge : ['mioge' , 'sans-serif' ],
+        betofin : ['betofin','sans-serif']
       },
       boxShadow: {
         // shd: '-95px 95px 96.5px #8B91F3',
       shd : '-34px 9px 45px -16px #8B91F3',
+      },
+      animation: {
+        scroll: 'scroll 30s linear infinite',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        }
       }
+
     },
   },
   

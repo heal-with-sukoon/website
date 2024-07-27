@@ -4,7 +4,7 @@ import Hero from '../../components/Hero/Hero'
 
 function FrontPage() {
   return (
-    <div className='pl-2 shadow-shd  '>
+    <div className='pl-2  '>
     <Navbar/>
     <Hero/>
   </div>

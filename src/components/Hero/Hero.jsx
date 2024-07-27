@@ -24,14 +24,15 @@ function Hero() {
 
                 </div>
 
-
-                <div className="w-3/5 mt-14 ">
-                    <Carousel />
+                <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
+                    <img src="/path/to/your/image.jpg" alt="Mental Health" className="rounded-lg shadow-lg" />
                 </div>
             </div>
 
+        
 
-        </section>
+
+        </section >
     )
 }
 
