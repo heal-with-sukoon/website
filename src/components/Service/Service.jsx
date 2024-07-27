@@ -23,7 +23,7 @@ function Service() {
                         className={`
                             flex-none w-64 h-64 m-4 p-4 rounded-xl shadow-md 
                             flex items-center justify-center text-center cursor-pointer
-                            hover:opacity-90 transition-opacity duration-300 
+                            hover:opacity-85 transition-opacity duration-300 
                             font-betofin text-2xl leading-10
                             ${service.bgColor}
                         `}

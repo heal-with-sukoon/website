@@ -2,6 +2,7 @@
 import Breathe from "./components/About/Breathe/Breathe"
 import FrontPage from "./pages/FrontPage/FrontPage"
 import Service from "./components/Service/Service"
+import About from "./pages/FrontPage/About/About"
 function App() {
 
 
@@ -11,7 +12,7 @@ function App() {
     <FrontPage/>
     </div>
     {/* <Breathe/> */}
-    <Service/>
+    <About/>
     </>
   )
 }
