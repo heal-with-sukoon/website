@@ -3,8 +3,8 @@ import Carousel from './Carousel'
 
 function Hero() {
     return (
-        <section className="bg-[#122620] flex flex-col items-center justify-center rounded-bl-[299px] shadow-shd ">
-            <div className="flex flex-col lg:flex-row items-center lg:items-start ml-28">
+        <section className="bg-[#122620] rounded-bl-[299px] shadow-shd ">
+            <div className="flex flex-row ml-28 ">
 
                 <div className="text-white mt-20 ">
                     <div className="text-5xl mb-4 font-galpike ">
@@ -25,7 +25,7 @@ function Hero() {
                 </div>
 
 
-                <div className=" w-1/2 flex justify-end mt-10 mr-20 ">
+                <div className="w-3/5 mt-20 ">
                     <Carousel />
                 </div>
             </div>
