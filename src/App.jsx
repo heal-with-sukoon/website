@@ -2,7 +2,9 @@
 import Breathe from "./components/About/Breathe/Breathe"
 import FrontPage from "./pages/FrontPage/FrontPage"
 import Service from "./components/Service/Service"
-import About from "./pages/FrontPage/About/About"
+import About from "./pages/About/About"
+import Help from "./components/Help/Help/Help"
+import HelpPage from "./pages/HelpPage/HelpPage"
 function App() {
 
 
@@ -13,6 +15,7 @@ function App() {
     </div>
     {/* <Breathe/> */}
     <About/>
+    <HelpPage/>
     </>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Service from '../../../components/Service/Service'
+import Service from '../../components/Service/Service'
 
 function About() {
   return (
