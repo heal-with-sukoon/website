@@ -1,8 +1,10 @@
 import React from 'react'
 import './Help.css'
+import Help from '../../components/Help/Help/Help'
 function HelpPage() {
   return (
-    <div className='w-full h-80 help mt-14'>
+    <div className='w-full help mt-14'>
+        <Help/>
     </div>
   )
 }
