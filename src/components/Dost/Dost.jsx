@@ -8,7 +8,7 @@ function Dost() {
                     <div className='font-tan text-6xl text-white p-14 pt-20 text-shadow-custom'>
                         Let us help you <span className='text-[#878eff]'>heal</span> <br /> <br /> with a DOST.
                     </div>
-                    <button className="ml-56 mb-14 px-6 py-3 text-4xl bg-white border-2 border-black text-black rounded-full hover:bg-[#DFDBF4] hover:text-black transition duration-300 hover:text-medium">
+                    <button className="ml-56 mb-14 px-6 py-3 text-4xl bg-white border-2 border-black text-black rounded-full hover:bg-[#e1e3e6] hover:text-black transition duration-300 hover:text-medium">
                         Connect
                     </button>
                 </div>
