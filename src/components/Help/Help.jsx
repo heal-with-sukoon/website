@@ -1,10 +1,11 @@
 import React from 'react'
+import Carousel from './Carousel'
 
 function Help() {
   return (
     <div className='flex'>
       <div className='relative'>
-        <img src="/Brain/Brain.svg" alt="brain" className='p-10' />
+        <img src="/Brain/Brain.svg" alt="brain" className='p-12 pl-20' />
         <div className='absolute inset-0 flex flex-col justify-center '>
           <div className='text-6xl font-betofin ml-40'>
             <div className='p-1'>Who do you</div>
@@ -14,6 +15,10 @@ function Help() {
         </div>
       </div>
       
+        {/* <Carousel/> */}
+      
+                   
+                
     </div>
 
   )

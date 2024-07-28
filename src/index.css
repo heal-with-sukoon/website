@@ -8,7 +8,18 @@
     font-weight: normal;
     font-style: normal;
   }
-  
+  @font-face {
+    font-family: 'rocaLt';
+    src: url('/fonts/RL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'rocait';
+    src: url('/fonts/RI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
   @font-face {
     font-family: 'galpike';
     src: url('/fonts/Galpike.ttf') format('truetype');

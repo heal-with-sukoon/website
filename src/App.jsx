@@ -1,11 +1,12 @@
 
-
 import FrontPage from "./pages/FrontPage/FrontPage"
 
 import About from "./pages/About/About"
 
 import HelpPage from "./pages/HelpPage/HelpPage"
-import Card from "./components/Help/Card"
+import SessionPage from "./pages/SessionPage/SessionPage"
+// import Carousel from "./components/Help/Carousel"
+
 function App() {
 
 
@@ -17,7 +18,8 @@ function App() {
     {/* <Breathe/> */}
     <About/>
     <HelpPage/>
-    <Card/>
+    <SessionPage/>
+
     </>
   )
 }
