@@ -13,7 +13,7 @@ function Hero() {
                                 Not Alone In
                             </span>
                             <img src="/underline/under.svg" alt="img" className='-mt-[72px] ml-40 ' />
-                        </span><span className='-mt-28'>this Journey</span>
+                        </span><span className='-mt-32 relative z-10'>this Journey</span>
                     </div>
                     <div className="text-4xl mb-6 font-galpike">Prioritize your</div>
                     <div className="text-7xl font-mioge mb-6 text-[#F5D9D6]">Mental Health.</div>
