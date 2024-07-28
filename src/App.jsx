@@ -6,6 +6,7 @@ import About from "./pages/About/About"
 import HelpPage from "./pages/HelpPage/HelpPage"
 import SessionPage from "./pages/SessionPage/SessionPage"
 import DetoxPage from "./pages/DetoxPage/DetoxPage"
+import DostPage from "./pages/DostPage/DostPage"
 // import Carousel from "./components/Help/Carousel"
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <HelpPage/>
     <SessionPage/>
      {/* <DetoxPage/> */}
+     <DostPage/>
     </>
   )
 }
