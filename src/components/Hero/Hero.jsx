@@ -7,14 +7,18 @@ function Hero() {
             <div className="flex flex-row ml-36 ">
 
                 <div className="text-white mt-20 ">
-                    <div className="text-5xl mb-4 font-galpike ">
-                        You’re  <span className="font-galpike -mb-20">
-                            <span >
-                                Not Alone In
+                    <div className="text-5xl mb-4 font-galpike relative">
+                        You’re
+                        <span className="font-galpike">
+                            <span>
+                                &nbsp; Not Alone In
                             </span>
-                            <img src="/underline/under.svg" alt="img" className='-mt-[72px] ml-40 ' />
-                        </span><span className='-mt-32 relative z-10'>this Journey</span>
+                            <img src="/underline/under.svg" alt="img" className="absolute top-0 left-0 transform -translate-y-5 ml-40" />
+                        </span>
+              <br />
+                        <span className="relative"><br />this Journey</span>
                     </div>
+
                     <div className="text-4xl mb-6 font-galpike">Prioritize your</div>
                     <div className="text-7xl font-mioge mb-6 text-[#F5D9D6]">Mental Health.</div>
 
@@ -29,7 +33,7 @@ function Hero() {
                 </div>
             </div>
 
-        
+
 
 
         </section >

@@ -19,7 +19,7 @@ export default {
       shd : '-34px 9px 45px -16px #8B91F3',
       },
       animation: {
-        scroll: 'scroll 12s linear infinite',
+        scroll: 'scroll 10s linear infinite',
       },
       keyframes: {
         scroll: {

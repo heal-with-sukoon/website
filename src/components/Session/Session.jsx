@@ -4,7 +4,7 @@ function Session() {
   return (
     <div>
   <div className='flex justify-end'>
-    <img src="/session/Squiggle.svg" alt="squiggle" className='absolute right-0 -mt-28 -mr-20 scale-75' />
+    <img src="/session/Squiggle.svg" alt="squiggle" className='absolute right-0 -mt-28 -mr-7 scale-75' />
   </div>
   <div className='text-center font-rocaLt text-white text-5xl pt-10'>
     <div className='relative flex justify-center'>
