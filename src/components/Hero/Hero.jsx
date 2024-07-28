@@ -11,18 +11,18 @@ function Hero() {
                         You’re
                         <span className="font-galpike">
                             <span>
-                                &nbsp; Not Alone In
+                                &nbsp; Not Alone :
                             </span>
                             <img src="/underline/under.svg" alt="img" className="absolute top-0 left-0 transform -translate-y-5 ml-40" />
                         </span>
-              <br />
-                        <span className="relative"><br />this Journey</span>
+              <br /> <br />
+                        {/* <span className="relative"><br />this Journey</span> */}
                     </div>
 
-                    <div className="text-4xl mb-6 font-galpike">Prioritize your</div>
+                    <div className="text-4xl mb-6 font-galpike">Exhale for Better</div>
                     <div className="text-7xl font-mioge mb-6 text-[#F5D9D6]">Mental Health.</div>
 
-                    <button className=" mb-12 px-6 py-3 text-2xl bg-transparent border-2 border-[#F5D9D6] text-white rounded-full hover:bg-[#F5D9D6] hover:text-black transition duration-300 ml-24 hover:text-medium">
+                    <button className=" mb-14 px-6 py-3 text-2xl bg-transparent border-2 border-[#F5D9D6] text-white rounded-full hover:bg-[#F5D9D6] hover:text-black transition duration-300 ml-24 hover:text-medium">
                         Wanna Talk About It?
                     </button>
 
