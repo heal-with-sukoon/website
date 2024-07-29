@@ -9,10 +9,7 @@ import DetoxPage from "./pages/DetoxPage/DetoxPage"
 import DostPage from "./pages/DostPage/DostPage"
 import ArticlePage from "./pages/ArticlePage/ArticlePage"
 // import Carousel from "./components/Help/Carousel"
-
 function App() {
-
-
   return (
     <>
     <div className="bg-[#E3DFF8]">
@@ -25,7 +22,7 @@ function App() {
      {/* <DetoxPage/> */}
      <ArticlePage/>
      <DostPage/>
-     
+
     </>
   )
 }
