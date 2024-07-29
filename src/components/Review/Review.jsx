@@ -25,7 +25,7 @@ function Review() {
 
     return (
         <div ref={container} className='relative -mb-24'>
-            <div className='text-6xl font-hanoble pt-14 text-center top-0 z-50 bg-white '>
+            <div className='text-7xl font-hanoble pt-14 text-center top-0 z-50 bg-[#E3DFF8] '>
                 You Are Not Alone
             </div>
             {projects.map((project, i) => {

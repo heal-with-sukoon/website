@@ -3,7 +3,7 @@ import Review from '../../components/Review/Review'
 
 function ReviewPage() {
   return (
-    <div>
+    <div className='bg-[#E3DFF8]'>
         <Review/>
     </div>
   )

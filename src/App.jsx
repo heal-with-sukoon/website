@@ -11,6 +11,7 @@ import ArticlePage from "./pages/ArticlePage/ArticlePage"
 import ReviewPage from "./pages/ReviewPage/ReviewPage"
 import TherapyPage from "./pages/TherapyPage/TherapyPage"
 // import Carousel from "./components/Help/Carousel"
+import Footer from "./components/Footer/Footer"
 function App() {
   return (
     <>
@@ -26,7 +27,7 @@ function App() {
      <DostPage/>
      <ReviewPage/>
      {/* <DetoxPage/> */}
-    
+    <Footer/>
     </>
   )
 }

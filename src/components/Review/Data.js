@@ -17,7 +17,7 @@ export const projects = [
     },
     {
       title: "Sarah",
-      description: "Heal with A Dost' is definitely my fav. feature on the Exhale!",
+      description: "'Heal with A Dost' is definitely my fav feature on the Exhale!",
       color: 'bg-[#DFCFBE]'
     },
 ]

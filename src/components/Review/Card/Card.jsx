@@ -14,7 +14,7 @@ function Card({ i, title, description, color, progress, range, targetScale, zInd
             >
                 <img src="/Review/review.svg" alt="comma" className='p-7' />
                 <div className='text-2xl pl-5 mr-1'>{description}</div>
-                <div className='text-2xl font-halimun ml-56 p-7'>- {title}</div>
+                <div className='text-2xl font-hanoble ml-56 p-7'>- {title}</div>
             </motion.div>
         </div>
     );
