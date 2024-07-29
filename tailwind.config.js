@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      margin: {
+        '20vh': '20vh',
+      },
 
       textShadow: {
         'custom': '1px 1px 2px rgba(0, 0, 0, 0.5)', 
@@ -18,7 +21,9 @@ export default {
         betofin: ['betofin', 'sans-serif'],
         rocaLt: ['rocaLt', 'sans-serif'],
         rocaIt: ['rocait', 'sans-serif'],
-        tan: ['tan', 'sans-serif']
+        tan: ['tan', 'sans-serif'],
+        hanoble: ['hanoble', 'sans-serif'],
+        halimun: ['halimun', 'sans-serif'],
       },
 
       boxShadow: {

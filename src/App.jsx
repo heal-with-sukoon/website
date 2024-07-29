@@ -8,6 +8,7 @@ import SessionPage from "./pages/SessionPage/SessionPage"
 import DetoxPage from "./pages/DetoxPage/DetoxPage"
 import DostPage from "./pages/DostPage/DostPage"
 import ArticlePage from "./pages/ArticlePage/ArticlePage"
+import ReviewPage from "./pages/ReviewPage/ReviewPage"
 // import Carousel from "./components/Help/Carousel"
 function App() {
   return (
@@ -19,10 +20,11 @@ function App() {
     <About/>
     <HelpPage/>
     <SessionPage/>
-     {/* <DetoxPage/> */}
+     
      <ArticlePage/>
      <DostPage/>
-
+     <ReviewPage/>
+     {/* <DetoxPage/> */}
     </>
   )
 }
