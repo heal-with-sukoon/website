@@ -9,6 +9,7 @@ import DetoxPage from "./pages/DetoxPage/DetoxPage"
 import DostPage from "./pages/DostPage/DostPage"
 import ArticlePage from "./pages/ArticlePage/ArticlePage"
 import ReviewPage from "./pages/ReviewPage/ReviewPage"
+import TherapyPage from "./pages/TherapyPage/TherapyPage"
 // import Carousel from "./components/Help/Carousel"
 function App() {
   return (
@@ -20,11 +21,12 @@ function App() {
     <About/>
     <HelpPage/>
     <SessionPage/>
-     
+    <TherapyPage/>
      <ArticlePage/>
      <DostPage/>
      <ReviewPage/>
      {/* <DetoxPage/> */}
+    
     </>
   )
 }

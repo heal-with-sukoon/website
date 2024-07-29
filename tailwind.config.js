@@ -24,6 +24,7 @@ export default {
         tan: ['tan', 'sans-serif'],
         hanoble: ['hanoble', 'sans-serif'],
         halimun: ['halimun', 'sans-serif'],
+        rocaThin: ['rocaThin', 'sans-serif'],
       },
 
       boxShadow: {

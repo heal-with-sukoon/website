@@ -38,7 +38,7 @@ function Session() {
     <div>
       <div className='text-white text-5xl mt-20 ml-20'>
         "It is possible to <div className='font-betofin pt-5 underline'>Smile Again"</div>
-        <button className="ml-16 mt-16 px-6 py-3 text-2xl bg-transparent border-4 border-[#DFDBF4] text-black rounded-full hover:bg-[#DFDBF4] hover:text-black transition duration-300 hover:text-medium">
+        <button className="ml-16 mt-16 px-6 py-3 text-2xl bg-transparent border-4 border-[#DFDBF4] text-black rounded-full hover:bg-[#DFDBF4] hover:text-black transition duration-300 hover:text-medium hover:font-semibold">
           Book A Session
         </button>
       </div>

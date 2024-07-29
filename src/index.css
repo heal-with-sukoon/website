@@ -56,6 +56,13 @@
   }
 
   @font-face {
+    font-family: 'rocaThin';
+    src: url('/fonts/rocaThin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
     font-family: 'halimun';
     src: url('/fonts/Halimun.ttf') format('truetype');
     font-weight: normal;
