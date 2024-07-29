@@ -3,7 +3,7 @@ import React from 'react'
 function Therapy() {
 
     return (
-        <div className="top-0 left-0 bg-[#1d2129]">
+        <div className="top-0 left-0 bg-[#1d2129] p-6">
             <div className='flex justify-center items-center '>
                 <img src="/Therapy/i2.svg" alt="img" className='p-10 pr-32' />
                 <div className=' pt-10 font-rocaThin text-6xl text-white text-center '>Try Our Audio Therapy  <div className='mt-5'>& Video Therapy</div>
