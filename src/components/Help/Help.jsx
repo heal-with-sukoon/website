@@ -1,7 +1,5 @@
 import React from 'react'
-import Carousel from './Carousel'
 import HelpCard from './HelpCard'
-import { Box } from './test'
 
 function Help() { 
   return (

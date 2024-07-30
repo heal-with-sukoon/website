@@ -5,7 +5,7 @@ import About from "./pages/About/About"
 
 import HelpPage from "./pages/HelpPage/HelpPage"
 import SessionPage from "./pages/SessionPage/SessionPage"
-// import DetoxPage from "./pages/DetoxPage/DetoxPage"
+import DetoxPage from "./pages/DetoxPage/DetoxPage"
 import DostPage from "./pages/DostPage/DostPage"
 import ArticlePage from "./pages/ArticlePage/ArticlePage"
 import ReviewPage from "./pages/ReviewPage/ReviewPage"
@@ -23,12 +23,14 @@ function App() {
     <About/>
     <HelpPage/>
     <SessionPage/>
+    <DetoxPage/>
     <Dream/>
     <TherapyPage/>
+    <img src="/heal.svg" alt="" className="w-full" />
      <ArticlePage/>
      <DostPage/>
      <ReviewPage/>
-     {/* <DetoxPage/> */}
+    
     <Footer/>
     </>
   )
