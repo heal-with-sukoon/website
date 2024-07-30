@@ -2,14 +2,14 @@ import React from 'react';
 
 function Dream() {
   return (
-    <div className='relative bg-[#1D2C33] flex justify-around items-center h-screen'>
-      <img src="/dream/cloud3.svg" alt="cloud" className='absolute top-32 -left-1 '/>
-      <img src="/dream/cloud.svg" alt="cloud" className='absolute -top-3 left-1/5 '/>
-      <img src="/dream/cloud5.svg" alt="cloud" className='absolute top-24 right-0 z-10'/>
-      <img src="/dream/cloud.svg" alt="cloud" className='absolute bottom-20 -left-10 scale-75'/>
-      <img src="/dream/cloud2.svg" alt="cloud" className='absolute bottom-10 left-96 '/>
-      <img src="/dream/cloud2.svg" alt="cloud" className='absolute bottom-32 right-80 '/>
-      <img src="/dream/cloud4.svg" alt="cloud" className='absolute -bottom-10 right-1 '/>
+    <div className='relative bg-[#1D2C33] flex justify-around items-center '>
+      <img src="/dream/cloud3.svg" alt="cloud" className='absolute top-14 -left-1 '/>
+      <img src="/dream/cloud.svg" alt="cloud" className='absolute -top-14 left-1/5 scale-90'/>
+      <img src="/dream/cloud5.svg" alt="cloud" className='absolute top-1 -right-4 z-10 scale-90'/>
+      <img src="/dream/cloud.svg" alt="cloud" className='absolute bottom-0 -left-10 scale-75'/>
+      <img src="/dream/cloud2.svg" alt="cloud" className='absolute -bottom-7 left-96 '/>
+      <img src="/dream/cloud2.svg" alt="cloud" className='absolute bottom-20 right-80 scale-90 '/>
+      <img src="/dream/cloud4.svg" alt="cloud" className='absolute -bottom-10 -right-3 scale-90'/>
 
       <div className='relative flex flex-col justify-center items-center text-white text-6xl font-galpike p-10'>
         Try our AI Based

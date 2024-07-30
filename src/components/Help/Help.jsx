@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from './Carousel'
+import HelpCard from './HelpCard'
 
 function Help() {
   return (
@@ -15,7 +16,7 @@ function Help() {
         </div>
       </div>
       
-        {/* <Carousel/> */}
+      <HelpCard/>
       
                    
                 
