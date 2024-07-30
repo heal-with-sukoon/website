@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Detox.css'
 function Detox() {
   return (
