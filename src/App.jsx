@@ -23,6 +23,7 @@ function App() {
     <HelpPage/>
     <SessionPage/>
     <TherapyPage/>
+    <img src="/heal.svg" alt="heal" className="w-screen"/>
      <ArticlePage/>
      <DostPage/>
      <ReviewPage/>

@@ -6,7 +6,7 @@ export const projects = [
     },
     {
       title: "Taylor",
-      description: "Insightful quizzes. Personally, loved the 'Draw with AI' feature",
+      description: "Insightful quizzes. Personally, loved the 'Draw with AI' feature.",
       color: 'bg-[#f5d5a2]'
      
     },
@@ -17,7 +17,7 @@ export const projects = [
     },
     {
       title: "Sarah",
-      description: "'Heal with A Dost' is definitely my fav feature on the Exhale!",
+      description: "'Heal with A Dost' is definitely my favourite feature on the Exhale!",
       color: 'bg-[#DFCFBE]'
     },
 ]

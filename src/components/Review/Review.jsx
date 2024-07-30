@@ -2,7 +2,7 @@
 import React, { useRef, useEffect } from 'react';
 import { projects } from './Data';
 import Card from './Card/Card';
-import { motion, useScroll } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import Lenis from '@studio-freight/lenis';
 
 function Review() {
@@ -11,6 +11,9 @@ function Review() {
         target: container,
         offset: ['start start', 'end end'],
     });
+
+    const yTransform = useTransform(scrollYProgress, [0, 0.9], ['0%', '-100%']);
+    const isSticky = useTransform(scrollYProgress, [0, 0.9], ['sticky', 'relative']);
 
     useEffect(() => {
         const lenis = new Lenis();
@@ -25,9 +28,12 @@ function Review() {
 
     return (
         <div ref={container} className='relative -mb-24'>
-            <div className='text-7xl font-hanoble pt-14 text-center top-0 z-50 bg-[#E3DFF8] '>
+            <motion.div 
+                className='text-4xl md:text-6xl font-hanoble pt-14 text-center z-50  bg-[#E3DFF8]' 
+                style={{ position: isSticky, top: 0 }}
+            >
                 You Are Not Alone
-            </div>
+            </motion.div>
             {projects.map((project, i) => {
                 const targetScale = 1 - ((projects.length - i) * 0.05);
                 return (
