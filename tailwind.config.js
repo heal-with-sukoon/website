@@ -20,6 +20,7 @@ export default {
         mioge: ['mioge', 'sans-serif'],
         betofin: ['betofin', 'sans-serif'],
         rocaLt: ['rocaLt', 'sans-serif'],
+        rocaThI: ['rocaThI', 'sans-serif'],
         rocaIt: ['rocait', 'sans-serif'],
         tan: ['tan', 'sans-serif'],
         hanoble: ['hanoble', 'sans-serif'],
