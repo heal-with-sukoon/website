@@ -1,8 +1,9 @@
 import React from 'react'
 import Carousel from './Carousel'
 import HelpCard from './HelpCard'
+import { Box } from './test'
 
-function Help() {
+function Help() { 
   return (
     <div className='flex'>
       <div className='relative'>
@@ -15,12 +16,15 @@ function Help() {
           </div>
         </div>
       </div>
-      
       <HelpCard/>
+      {/* <Box/> */}
+      </div>
+      
+      
       
                    
                 
-    </div>
+  
 
   )
 }

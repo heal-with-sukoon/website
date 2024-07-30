@@ -1,54 +1,76 @@
-import React from 'react'
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+const HelpCard = () => {
+  const cards = [
+    { img: "/Help/me.svg", text: "Me" },
+    { img: "/Help/friend.svg", text: "Friend" },
+    { img: "/Help/family.svg", text: "Family Member" },
+  ];
 
-function HelpCard() {
-    return (
-        <div>
-            <div className="carousel rounded-box w-64">
-                <div className="carousel-item w-full">
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-                        className="w-full"
-                        alt="Tailwind CSS Carousel component" />
-                </div>
-                <div className="carousel-item w-full">
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-                        className="w-full"
-                        alt="Tailwind CSS Carousel component" />
-                </div>
-                <div className="carousel-item w-full">
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-                        className="w-full"
-                        alt="Tailwind CSS Carousel component" />
-                </div>
-                <div className="carousel-item w-full">
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-                        className="w-full"
-                        alt="Tailwind CSS Carousel component" />
-                </div>
-                <div className="carousel-item w-full">
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-                        className="w-full"
-                        alt="Tailwind CSS Carousel component" />
-                </div>
-                <div className="carousel-item w-full">
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-                        className="w-full"
-                        alt="Tailwind CSS Carousel component" />
-                </div>
-                <div className="carousel-item w-full">
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-                        className="w-full"
-                        alt="Tailwind CSS Carousel component" />
-                </div>
-            </div>
-        </div>
-    )
-}
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-export default HelpCard
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === cards.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? cards.length - 1 : prevIndex - 1
+    );
+  };
+
+  return (
+    <div className="relative w-64 mx-auto ">
+      
+      <div className="relative h-96 flex items-center justify-center">
+
+        <AnimatePresence initial={false}>
+          {cards.map((card, index) => (
+            <motion.div
+              key={index}
+              className={`absolute inset-0 w-full h-full`}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{
+                opacity: index === currentIndex ? 1 : 0,
+                scale: index === currentIndex ? 1 : 0.8,
+              }}
+              exit={{ opacity: 0, scale: 0.8 }}
+              transition={{ duration: 0.5 }}
+              style={{
+                zIndex: cards.length - index,
+                transform: index === currentIndex ? 'none' : 'translateY(20px)',
+              }}
+            >
+              <div className="relative w-full">
+              <img
+                src={card.img}
+                className="w-full object-cover rounded-box mt-[120px] scale-125"
+                alt="Carousel item"
+              />
+              <div className="w-full absolute bottom-0 bg-[#E4FFFD] p-2 rounded-b text-center opacity-70">
+                  <span className="text-black text-xl font-extrabold">
+                    {card.text}
+                  </span>
+                </div>
+              </div>
+              
+            </motion.div>
+          ))}
+        </AnimatePresence>
+        <img src="/Help/Barrow.svg" alt="a" onClick={handlePrev} className="scale-[.6] cursor-pointer mr-40 mt-44" />
+
+       <img src="/Help/Farrow.svg" alt="a"onClick={handleNext} className="scale-[.6] cursor-pointer ml-40 mt-44"/>
+      </div>
+      
+        
+     
+      
+    
+      
+    </div>
+  );
+};
+
+export default HelpCard;
