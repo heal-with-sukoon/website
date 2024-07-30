@@ -30,7 +30,7 @@ export default {
 
       boxShadow: {
         // shd: '-95px 95px 96.5px #8B91F3',
-        shd: '-34px 9px 45px -16px #8B91F3',
+        shd: '-34px -3px 45px -16px #8B91F3', 
       },
 
       animation: {

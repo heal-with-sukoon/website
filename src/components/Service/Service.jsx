@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Service() {
     const services = [
         { name: "WANNA TALK ABOUT IT ?", link: "#", bgColor: "bg-[#eba0b1]" },
-        { name: "WHO DO YOU THINK NEEDS HELP ?", link: "#", bgColor: "bg-[#9097FD]" },
+        { name: "WHO DO YOU THINK NEEDS HELP ?", link: "", bgColor: "bg-[#9097FD]" },
         { name: "BOOK A SESSION", link: "#", bgColor: "bg-[#F5F5A0]" },
         { name: "DIGITAL DETOX", link: "#", bgColor: "bg-[#9BC5C2]" },
         { name: "AI BASED DREAM ANALYZER", link: "#", bgColor: "bg-[#EFDDD8]" },

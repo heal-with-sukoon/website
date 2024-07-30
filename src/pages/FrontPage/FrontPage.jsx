@@ -1,15 +1,12 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
 import Hero from '../../components/Hero/Hero'
 
 function FrontPage() {
   return (
-    <div className='pl-2  '>
-    <Navbar/>
-    <Hero/>
-  </div>
-  
-    
+    <div className='pl-2 bg-[#E3DFF8] '>
+      <Hero />
+    </div>
+
   )
 }
 

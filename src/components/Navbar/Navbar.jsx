@@ -4,7 +4,7 @@ const Navbar = () => {
   // const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-[#122620] p-4 flex justify-between items-center shadow-shd">
+    <nav className=" ml-2 fixed top-0 w-full z-20 bg-[#122620] p-4 flex justify-between items-center shadow-shd">
       <a href="#" className="text-white font-bold text-6xl pl-3 font-Roca">Exhale.</a>
 
       <div className="flex items-center space-x-4">
@@ -12,7 +12,27 @@ const Navbar = () => {
         <a href="#" className="text-white text-2xl hover:underline p-4">Find support</a>
         <a href="#" className="text-white text-2xl hover:underline p-4">Blogs & Stories</a>
 
-        {/* <div 
+        <div className="dropdown dropdown-hover">
+          <div tabIndex={0} role="button" className=" text-white  text-2xl hover:underline m-1">More</div>
+          <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box w-44 shadow">
+            <li className='-ml-3'><a>Dream Analyzer</a></li>
+            <li className='-ml-3' ><a>Digital Detox</a></li>
+            <li className='-ml-3'><a>Audio/Video Therapy</a></li>
+            <li className='-ml-3'><a>Heal with a Dost</a></li>
+            <li className='-ml-3'><a>About Mental Health</a></li>
+          </ul>
+        </div>
+
+        <a href="#" className="text-white text-2xl hover:underline p-4">Login</a>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
+
+
+  {/* <div 
       className="relative group"
       onMouseEnter={() => setDropdownOpen(true)}
       onMouseLeave={() => setDropdownOpen(false)}
@@ -73,22 +93,3 @@ const Navbar = () => {
         </div>
       )}
     </div> */}
-
-        <div className="dropdown dropdown-hover">
-          <div tabIndex={0} role="button" className=" text-white  text-2xl hover:underline m-1">More</div>
-          <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box w-44 shadow">
-            <li className='-ml-3'><a>Dream Analyzer</a></li>
-            <li className='-ml-3' ><a>Digital Detox</a></li>
-            <li className='-ml-3'><a>Audio/Video Therapy</a></li>
-            <li className='-ml-3'><a>Heal with a Dost</a></li>
-            <li className='-ml-3'><a>About Mental Health</a></li>
-          </ul>
-        </div>
-
-        <a href="#" className="text-white text-2xl hover:underline p-4">Login</a>
-      </div>
-    </nav>
-  );
-};
-
-export default Navbar;

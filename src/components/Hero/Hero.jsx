@@ -1,13 +1,13 @@
 import React from 'react'
 
 
-function Hero() {
+function Hero() { 
     return (
         <section className="bg-[#122620] rounded-bl-[299px] shadow-shd ">
             <div className="flex flex-row ml-36 ">
 
                 <div className="text-white mt-20 ">
-                    <div className="text-5xl mb-4 font-galpike relative">
+                    <div className="text-5xl mb-4 font-galpike relative mt-20">
                         You’re
                         <span className="font-galpike">
                             <span>
