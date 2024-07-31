@@ -3,7 +3,7 @@ import Hero from '../../components/Hero/Hero'
 
 function FrontPage() {
   return (
-    <div className='pl-2 bg-[#E3DFF8] '>
+    <div className='pl-2 bg-[#E3DFF8] ' id='Talk'>
       <Hero />
     </div>
 

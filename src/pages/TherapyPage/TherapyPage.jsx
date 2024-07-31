@@ -3,7 +3,7 @@ import Therapy from '../../components/Therapy/Therapy'
 
 function TherapyPage() {
   return (
-    <div>
+    <div id='Therapy'>
         <Therapy/>
     </div>
   )

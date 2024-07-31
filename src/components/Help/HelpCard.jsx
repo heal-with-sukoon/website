@@ -38,10 +38,7 @@ const HelpCard = () => {
               }}
               exit={{ opacity: 0, scale: 0.8 }}
               transition={{ duration: 0.5 }}
-              style={{
-                zIndex: cards.length - index,
-                transform: index === currentIndex ? 'none' : 'translateY(20px)',
-              }}
+              
             >
               <Link to={card.link} className="relative w-full h-full block">
                 <img

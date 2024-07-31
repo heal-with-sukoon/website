@@ -1,10 +1,11 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 // import { useState } from 'react';
 const Navbar = () => {
   // const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className=" ml-2 fixed top-0 w-full z-20 bg-[#122620] p-4 flex justify-between items-center shadow-shd">
+    <nav className=" ml-2 top-0  z-20 bg-[#122620] p-4 flex justify-between items-center shadow-shd">
       <a href="#" className="text-white font-bold text-6xl pl-3 font-Roca">Exhale.</a>
 
       <div className="flex items-center space-x-4">
@@ -15,11 +16,12 @@ const Navbar = () => {
         <div className="dropdown dropdown-hover">
           <div tabIndex={0} role="button" className=" text-white  text-2xl hover:underline m-1">More</div>
           <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box w-44 shadow">
-            <li className='-ml-3'><a>Dream Analyzer</a></li>
-            <li className='-ml-3' ><a>Digital Detox</a></li>
-            <li className='-ml-3'><a>Audio/Video Therapy</a></li>
-            <li className='-ml-3'><a>Heal with a Dost</a></li>
-            <li className='-ml-3'><a>About Mental Health</a></li>
+          <li className='-ml-3'><Link smooth to={"#Dream"}>Dream Analyzer</Link></li>
+          <li className='-ml-3'><Link smooth to={"#Detox"}>Digital Detox</Link></li>
+          <li className='-ml-3'><Link smooth to={"#Therapy"}>Audio/Video Therapy</Link></li>
+          <li className='-ml-3'><Link smooth to={"#Dost"}>Heal with a Dost</Link></li>
+          <li className='-ml-3'><Link smooth to={"#mental-health"}>About Mental Health</Link></li>
+         
           </ul>
         </div>
 

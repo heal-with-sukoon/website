@@ -18,8 +18,7 @@ const Acard = () => {
             <div>
             <div className="relative">
             <img src="/Brain/WBrain.svg" alt="brain" className="absolute -mt-4 -ml-4 w-40 h-28 object-cover" />
-                <h2 className="text-3xl text-[#122620] font-bold absolute top-0 left-0">{card.heading}</h2>
-                
+                <h2 className="text-3xl text-[#122620] font-bold absolute top-0 left-0">{card.heading}</h2>            
               </div>
               <p className="text-sm text-black ml-36 p-3 mt-10">{card.writer}<br />{card.date}</p>
             </div>
