@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Session() {
   return (
     <div>
@@ -31,16 +31,19 @@ function Session() {
 
   <div className='flex p-4'>
     <div className='pt-8  pl-24 relative'>
-      <div className='bg-white rounded-[67px] w-2/3 h-96 absolute'></div>
-      <img src="/session/man.svg" alt="man" className='w-3/4 relative -top-9 -left-3 z-10' />
+      {/* <div className='bg-white rounded-[67px] w-2/3 h-96 absolute'></div> */}
+      <img src="/session/man.svg" alt="man" className='w-3/4 relative -top-9 -left-3 z-10 shadow-lg rounded-[67px]' />
     </div>
 
     <div>
       <div className='text-white text-5xl mt-20 ml-20'>
         "It is possible to <div className='font-betofin pt-5 underline'>Smile Again"</div>
-        <button className="ml-16 mt-16 px-6 py-3 text-2xl bg-transparent border-4 border-[#DFDBF4] text-black rounded-full hover:bg-[#DFDBF4] hover:text-black transition duration-300 hover:text-medium hover:font-semibold">
+        <Link to="/therapists">
+        <button className="ml-16 mt-16 px-6 py-3 text-2xl bg-transparent border-4 border-[#DFDBF4] text-black rounded-full hover:bg-[#DFDBF4] hover:text-black transition duration-300 hover:text-medium hover:font-semibold" >
           Book A Session
         </button>
+        </Link>
+        
       </div>
     </div>
   </div>

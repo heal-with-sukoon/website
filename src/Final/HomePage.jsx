@@ -9,12 +9,11 @@ import TherapyPage from '../pages/TherapyPage/TherapyPage'
 import ArticlePage from '../pages/ArticlePage/ArticlePage'
 import DostPage from '../pages/DostPage/DostPage'
 import ReviewPage from '../pages/ReviewPage/ReviewPage'
-import Card from '../components/Therapists/Card1'
-import TherapistPage from './TherapistPage'
+
 function HomePage() {
   return (
     <div>
-    {/* <FrontPage/>
+    <FrontPage/>
     <About/>
     <HelpPage/>
     <SessionPage/>
@@ -24,9 +23,9 @@ function HomePage() {
     <img src="/heal.svg" alt="" className="w-full" />
      <ArticlePage/>
      <DostPage/>
-     <ReviewPage/> */}
-     {/* <Card/> */}
-     <TherapistPage/>
+     <ReviewPage/>
+
+    
     </div>
   )
 }

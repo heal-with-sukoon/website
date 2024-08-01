@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 
 import { Pagination, Navigation, HashNavigation } from 'swiper/modules';
 
-export default function App() {
+export default function TherapistPage() {
   return (
     <>
       <Swiper
@@ -25,7 +25,7 @@ export default function App() {
         }}
         navigation={true}
         modules={[Pagination, Navigation, HashNavigation]}
-        className="mySwiper bg-[#C7C2D9]"
+        className="mySwiper bg-[#C7C2D9] z-10"
       >
         <SwiperSlide data-hash="slide1"><Card/></SwiperSlide>
         <SwiperSlide data-hash="slide2"><Card/></SwiperSlide>

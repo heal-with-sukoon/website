@@ -15,7 +15,7 @@ function Help() {
         </div>
       </div>
       <HelpCard/>
-      {/* <Box/> */}
+     
       </div>
       
       

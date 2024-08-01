@@ -8,19 +8,27 @@ import {
   RouterProvider,
   Route,
   createRoutesFromElements,
+  Router,
 } from "react-router-dom";
-import HelpPage from './pages/HelpPage/HelpPage.jsx'
+import TherapistPage from './Final/TherapistPage.jsx'
+import ScrollToTop from './scrollToTop.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<App/>}>
-      <Route path="" element={<HomePage/>}/>
-    </Route>
+    
+     
+      <Route path='/' element={<App />}>
+        <Route path="" element={<HomePage />} />
+        <Route path="therapists" element={<TherapistPage />} />
+      </Route>
+  
+
   )
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+     
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
