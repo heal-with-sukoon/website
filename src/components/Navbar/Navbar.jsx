@@ -5,8 +5,8 @@ const Navbar = () => {
   // const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className=" ml-2 top-0  z-20 bg-[#122620] p-4 flex justify-between items-center shadow-shd">
-      <a href="#" className="text-white font-bold text-6xl pl-3 font-Roca">Exhale.</a>
+    <nav className="  top-0  z-20 bg-[#122620] p-4 flex justify-between items-center shadow-shd">
+      <a href="/" className="text-white font-bold text-6xl pl-3 font-Roca">Exhale.</a>
 
       <div className="flex items-center space-x-4">
         <a href="#" className="text-white text-2xl hover:underline p-4">About us</a>
