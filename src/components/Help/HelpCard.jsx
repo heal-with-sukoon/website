@@ -8,7 +8,7 @@ const HelpCard = () => {
     { img: "/Help/friend.svg", text: "Friend", link: "/friend" },
     { img: "/Help/family.svg", text: "Family Member", link: "/family" },
   ];
-
+ 
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {

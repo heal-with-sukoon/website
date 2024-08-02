@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import './Detox.css'
 function Detox() {
   return (
@@ -14,9 +14,12 @@ function Detox() {
             </div>
             
       </div>
+      <Link to="/digital-detox">
       <button className=" mb-7 px-6 py-3 mt-10 text-2xl bg-[#E8D9CA] border-4 border-black text-black rounded-full hover:bg-[#DFDBF4] hover:text-black transition duration-300 hover:text-medium hover:font-semibold">
          Explore Now
         </button>
+      </Link>
+      
     </div>
   );
 }
