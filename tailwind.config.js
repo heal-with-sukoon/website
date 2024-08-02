@@ -26,6 +26,8 @@ export default {
         hanoble: ['hanoble', 'sans-serif'],
         halimun: ['halimun', 'sans-serif'],
         rocaThin: ['rocaThin', 'sans-serif'],
+        Rspring : ['Rspring','sans-serif'],
+        Bspring : ['Bspring','sans-serif']
       },
 
       boxShadow: {
