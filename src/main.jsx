@@ -8,10 +8,11 @@ import {
   RouterProvider,
   Route,
   createRoutesFromElements,
-  Router,
+
 } from "react-router-dom";
 import TherapistPage from './Final/TherapistPage.jsx'
-import ScrollToTop from './scrollToTop.jsx'
+import Dream from './Final/Dream.jsx'
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,7 +20,9 @@ const router = createBrowserRouter(
      
       <Route path='/' element={<App />}>
         <Route path="" element={<HomePage />} />
-        <Route path="therapists" element={<TherapistPage />} />
+        <Route path="book-session" element={<TherapistPage />} />
+        <Route path="dream-analyzer" element={<Dream />} />
+
       </Route>
   
 

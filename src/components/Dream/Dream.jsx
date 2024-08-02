@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function Dream() {
   return (
     <div id='Dream'>
@@ -16,9 +16,10 @@ function Dream() {
           Try our AI Based
           <img src="/dream/line.svg" alt="line" className='absolute top-0 scale-75 ml-60' />
           <div className='font-rocaThI mt-4'>Dream Analyzer</div>
+          <Link to="/dream-analyzer">
           <button className="mt-14 px-6 py-3 text-2xl bg-[#42536A] text-white rounded-full hover:bg-[#e0dfdc] hover:text-black transition duration-300 hover:text-medium ">
             Tell a Dream
-          </button>
+          </button></Link>
         </div>
 
         <img src="/dream/girl.svg" alt="girl" className='scale-90' />

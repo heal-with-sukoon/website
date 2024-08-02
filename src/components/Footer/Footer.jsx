@@ -4,7 +4,7 @@ import { SocialIcon } from 'react-social-icons'
 
 const Footer = () => {
   return (
-    <div className="bg-gray-900 text-white py-8">
+    <div className="bg-gray-900 text-white py-8 z-20">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center pb-8 border-b border-gray-700">
           <div className="text-5xl font-bold font-Roca">Exhale.</div>
