@@ -12,7 +12,7 @@ import {
 } from "react-router-dom";
 import TherapistPage from './Final/TherapistPage.jsx'
 import Dream from './Final/Dream.jsx'
-import Audio from './components/Meditation/Audio.jsx'
+import Detox from './Final/Detox.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,7 +22,7 @@ const router = createBrowserRouter(
         <Route path="" element={<HomePage />} />
         <Route path="book-session" element={<TherapistPage />} />
         <Route path="dream-analyzer" element={<Dream />} />
-        <Route path="digital-detox" element={<Audio />} />
+        <Route path="digital-detox" element={<Detox />} />
       </Route>
   
 

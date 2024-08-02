@@ -10,7 +10,7 @@ function Audio() {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [direction, setDirection] = useState(1); // 1 for next, -1 for previous
+  const [direction, setDirection] = useState(1); 
 
   const handleNext = () => {
     setDirection(1);
