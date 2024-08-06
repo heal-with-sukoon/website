@@ -1,1 +1,1 @@
-# Exhale-A-Mental-Health-Platform
+# Sukoon-A-Mental-Health-Platform
