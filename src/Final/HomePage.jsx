@@ -10,6 +10,7 @@ import ArticlePage from '../pages/ArticlePage/ArticlePage'
 import DostPage from '../pages/DostPage/DostPage'
 import ReviewPage from '../pages/ReviewPage/ReviewPage'
 
+
 function HomePage() {
   return (
     <div>
@@ -24,7 +25,7 @@ function HomePage() {
      <ArticlePage/>
      <DostPage/>
      <ReviewPage/>
-
+   
     
     </div>
   )

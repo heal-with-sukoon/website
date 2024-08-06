@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      rotate: {
+        '180': '-180',
+      },
+
       margin: {
         '20vh': '20vh',
       },
