@@ -15,6 +15,7 @@ import Dream from './Final/Dream.jsx'
 import Detox from './Final/Detox.jsx'
 import Talk from './Final/Talk.jsx'
 import AboutUs from './Final/AboutUs.jsx'
+import TherapyPage from './Final/TherapyPage.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
         <Route path="digital-detox" element={<Detox />} />
         <Route path="talk-with-ai" element={<Talk />} />
         <Route path="about-us" element={<AboutUs />} />
+        <Route path="audio-video-therapy" element={<TherapyPage />} />
       </Route>
   
 

@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 const HelpCard = () => {
   const cards = [
-    { img: "/Help/me.svg", text: "Me", link: "/me" },
-    { img: "/Help/friend.svg", text: "Friend", link: "/friend" },
-    { img: "/Help/family.svg", text: "Family Member", link: "/family" },
+    { img: "/Help/me.svg", text: "Me" },
+    { img: "/Help/friend.svg", text: "Friend" },
+    { img: "/Help/family.svg", text: "Family Member" },
   ];
  
   const [currentIndex, setCurrentIndex] = useState(0);

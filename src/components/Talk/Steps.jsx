@@ -18,8 +18,8 @@ function Steps() {
                     <img src="/Talk/s2.svg" alt="s2" className='scale-75' />
                     <div className='absolute text-[#695E91] text-3xl text-center font-medium'>
                         Get Coupon Code   </div>
-                    <div className='absolute text-xl mt-14 text-center'>Check Your Email Inbox 
-                    For The Special Student Coupon Code.</div>
+                    <div className='absolute text-xl mt-14 text-center'>Check Your Email Inbox
+                        For The Special Student Coupon Code.</div>
                 </div>
                 <div className='reative'>
                     <img src="/Talk/s3.svg" alt="s3" className='scale-75' />

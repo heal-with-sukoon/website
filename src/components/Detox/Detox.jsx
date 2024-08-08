@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Detox.css'
 function Detox() {
   return (
-    <div className=' bg-custom text-center '>
+    <div className=' bg-[#FBF4EE] text-center '>
       <div className='p-7 text-6xl font-betofin'>Digital Detox</div>
       <div className='text-center text-3xl bg-[#372E2C] text-white opacity-70 p-4'>Harmonize Your Inner Self And Your Body While
       <div className='text-center'>Meditating Your Blues Away.</div></div>

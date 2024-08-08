@@ -52,7 +52,7 @@ function Card() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % content.length)
-        }, 4000) 
+        }, 3000) 
 
         return () => clearInterval(interval)
     }, [])
@@ -75,18 +75,18 @@ function Card() {
 
 function CardContent({ card, index }) {
     return (
-        <div className='relative w-[500px] h-[400px] flex-shrink-0 rounded-[50px] bg-[#81CF95] border-white border-8 shadow-lg'>
+        <div className='relative w-[500px] h-[400px] flex-shrink-0 rounded-[50px] bg-[#81CF95] border-white border-8 shadow-lg inset-0 z-10 overflow-hidden' >
             <div className='flex justify-around items-end'>
-                <div>
-                    <img src={card.img} alt="pic" className={`h-[280px] w-[280px] absolute transform ${getImageClass(index)}`}/>
+                <div >
+                    <img src={card.img} alt="pic" className={`h-[280px] w-[280px] absolute transform object-contain ${getImageClass(index)}`}/>
                 </div>
                 <div className='ml-32'>
                     <div className='flex relative'>
                         <img src="/Famous/c1.svg" alt="comma" className='absolute top-3 scale-75' />
                         <div className='inline mr-4'>
-                            <div className='relative font-Rspring text-white text-4xl font-medium pl-14 pt-5 right-2'>
+                            <div className='relative  font-Rspring text-white text-4xl font-medium pl-14 pt-5 right-2'>
                                 {card.line}
-                                <span><img src="/Famous/c2.svg" alt="comma" className='absolute right-8 scale-75' /></span>
+                                <div><img src="/Famous/c2.svg" alt="comma" className='absolute right-8 scale-75' /></div>
                             </div>
                             <div className='font-rocaLt text-end mt-10 mr-6 text-2xl'>{card.by}</div>
                             <div className='font-rocaLt mb-4 pl-8 ml-10 text-end text-2xl mr-3'>{card.movie}</div>
@@ -100,13 +100,13 @@ function CardContent({ card, index }) {
 
 function getImageClass(index) {
     const classes = [
-        'left-4 bottom-0',
+        'left-4 -bottom-[3px]',
         'left-0 -bottom-4',
         '-left-5 bottom-0',
-        '-left-12 bottom-0 scale-x-[-1]',
+        '-left-12 bottom-0 scale-x-[-1] box-border object-contain',
         '-left-14 bottom-0 scale-x-[-1]',
         'left-0 bottom-0',
-        '-left-7 bottom-0'
+        '-left-[31px] bottom-0'
     ]
     return classes[index] || ''
 }

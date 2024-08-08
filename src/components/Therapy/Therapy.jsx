@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Therapy() {
 
@@ -14,9 +15,12 @@ function Therapy() {
             <div className='flex justify-center items-center '>
                 <img src="/Therapy/i3.svg" alt="img" className='p-10 pr-20' />
                 <div className='px-20 pr-44'>
-                    <button className=" px-8 py-4 text-3xl border-2 border-white text-white rounded-full hover:bg-[#cacfcc] hover:text-black transition duration-300 hover:text-medium hover:font-semibold">
-                        Try Now
-                    </button>
+                    <Link to='/audio-video-therapy'>
+                        <button className=" px-8 py-4 text-3xl border-2 border-white text-white rounded-full hover:bg-[#cacfcc] hover:text-black transition duration-300 hover:text-medium hover:font-semibold">
+                            Try Now
+                        </button>
+                    </Link>
+
                 </div>
 
 

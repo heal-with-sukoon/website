@@ -15,7 +15,7 @@ export default {
       },
 
       textShadow: {
-        'custom': '1px 1px 2px rgba(0, 0, 0, 0.5)', 
+        'custom': '1px 1px 2px rgba(0, 0, 0, 0.5)',
       },
 
       fontFamily: {
@@ -30,13 +30,13 @@ export default {
         hanoble: ['hanoble', 'sans-serif'],
         halimun: ['halimun', 'sans-serif'],
         rocaThin: ['rocaThin', 'sans-serif'],
-        Rspring : ['Rspring','sans-serif'],
-        Bspring : ['Bspring','sans-serif']
+        Rspring: ['Rspring', 'sans-serif'],
+        Bspring: ['Bspring', 'sans-serif']
       },
 
       boxShadow: {
         // shd: '-95px 95px 96.5px #8B91F3',
-        shd: '-34px -3px 45px -16px #8B91F3', 
+        shd: '-34px -3px 45px -16px #8B91F3',
       },
 
       animation: {
