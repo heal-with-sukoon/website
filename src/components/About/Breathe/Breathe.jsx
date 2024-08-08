@@ -1,22 +1,34 @@
-import React from 'react'
-import "./Breathe.css"
+import React, { useState, useEffect } from 'react';
+import "./Breathe.css";
 
 function Breathe() {
+  const [text, setText] = useState('Exhale');
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setText((prev) => (prev === 'Inhale' ? 'Exhale' : 'Inhale'));
+    }, 6500); 
+
+    return () => clearInterval(interval); 
+  }, []);
+
   return (
     <div className='relative'>
-      <div class="circle2"></div>
-      <div class="wrapper">
-        <div class="circle blue"></div>
-        <div class="circle green"></div>
-        <div class="circle green"></div>
-        <div class="circle green"></div>
-        <div class="circle blue"></div>
-        <div class="circle blue"></div>
-        <div class="circle blue"></div>
-        <div class="circle blue"></div>
+      <div className="circle2">
+        {text}
+      </div>
+      <div className="wrapper">
+        <div className="circle blue"></div>
+        <div className="circle green"></div>
+        <div className="circle green"></div>
+        <div className="circle green"></div>
+        <div className="circle blue"></div>
+        <div className="circle blue"></div>
+        <div className="circle blue"></div>
+        <div className="circle blue"></div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Breathe
+export default Breathe;
