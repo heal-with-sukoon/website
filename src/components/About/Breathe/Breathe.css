@@ -50,10 +50,10 @@
   background:linear-gradient(rgb(89, 209, 190),rgba(167, 255, 255, 1));
 }
 .blue {
-  background: linear-gradient(rgba(86, 231, 196, 1), rgba(167, 255, 255, 1));
+  background: linear-gradient(rgb(37, 163, 133), rgb(27, 159, 159));
 }
 .green {
-  background: linear-gradient(rgba(76, 230, 165, 1), rgba(167, 255, 255, 1));
+  background: linear-gradient(rgb(37, 163, 133), rgb(27, 159, 159));
 }
 .circle:nth-of-type(1) {
   transform: translateY(-50%);

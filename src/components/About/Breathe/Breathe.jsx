@@ -3,7 +3,7 @@ import "./Breathe.css";
 
 function Breathe() {
   const [text, setText] = useState('Exhale');
-
+ 
   useEffect(() => {
     const interval = setInterval(() => {
       setText((prev) => (prev === 'Inhale' ? 'Exhale' : 'Inhale'));

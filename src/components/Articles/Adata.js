@@ -4,7 +4,7 @@ export const cardData = [
       writer: 'Arni Sehgal',
       date: 'Nov 2024',
       content: 'Conubia ex senectus commodo; facilisis metus vel! Quam nec habitant vehicula tempor felis. Ac sapien. Conubia ex senectus commodo; facilisis metus vel! Quam nec habitant vehicula tempor felis. Ac congue primis tortor porttitor et sapien.',
-      cardBgColor: 'bg-[#9097FD]',
+      cardBgColor: 'bg-[#CBCDFA]',
       sideBgColor: 'bg-[#F7F7A0]',
       articleText: 'Blogs',
       link: '#'
@@ -39,24 +39,24 @@ export const cardData = [
       articleText: 'Blogs',
       link: '#'
     },
-    {
-      heading: 'PTSD',
-      writer: 'Chris White',
-      date: 'Jul 2024',
-      content: 'Conubia ex senectus commodo; facilisis metus vel! Quam nec habitant vehicula tempor felis. Ac sapien. Conubia ex senectus commodo; facilisis metus vel! Quam nec habitant vehicula tempor felis. Ac congue primis tortor porttitor et sapien.',
-      cardBgColor: 'bg-[#CBCDFA]',
-      sideBgColor: 'bg-[#F7F7A0]',
-      articleText: 'Blogs',
-      link: '#'
-    },
-    {
-      heading: 'Teen Issues',
-      writer: 'Arni Sehgal',
-      date: 'Jun 2024',
-      content: 'Conubia ex senectus commodo; facilisis metus vel! Quam nec habitant vehicula tempor felis. Ac sapien. Conubia ex senectus commodo; facilisis metus vel! Quam nec habitant vehicula tempor felis. Ac congue primis tortor porttitor et sapien.',
-      cardBgColor: 'bg-[#deabcf]',
-      sideBgColor: 'bg-[#F7F7A0]',
-      articleText: 'Blogs',
-      link: '#'
-    }
+    // {
+    //   heading: 'PTSD',
+    //   writer: 'Chris White',
+    //   date: 'Jul 2024',
+    //   content: 'Conubia ex senectus commodo; facilisis metus vel! Quam nec habitant vehicula tempor felis. Ac sapien. Conubia ex senectus commodo; facilisis metus vel! Quam nec habitant vehicula tempor felis. Ac congue primis tortor porttitor et sapien.',
+    //   cardBgColor: 'bg-[#9097FD]',
+    //   sideBgColor: 'bg-[#F7F7A0]',
+    //   articleText: 'Blogs',
+    //   link: '#'
+    // },
+    // {
+    //   heading: 'Teen Issues',
+    //   writer: 'Arni Sehgal',
+    //   date: 'Jun 2024',
+    //   content: 'Conubia ex senectus commodo; facilisis metus vel! Quam nec habitant vehicula tempor felis. Ac sapien. Conubia ex senectus commodo; facilisis metus vel! Quam nec habitant vehicula tempor felis. Ac congue primis tortor porttitor et sapien.',
+    //   cardBgColor: 'bg-[#deabcf]',
+    //   sideBgColor: 'bg-[#F7F7A0]',
+    //   articleText: 'Blogs',
+    //   link: '#'
+    // }
   ];

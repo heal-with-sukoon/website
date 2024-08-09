@@ -1,31 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./Dream.css"
+
 function Dream() {
   return (
-    <div id='Dream'>
-      <div className='relative bg-[#1D2C33] flex justify-around items-center '>
-        <img src="/dream/cloud3.svg" alt="cloud" className='absolute top-14 -left-1 ' />
-        <img src="/dream/cloud.svg" alt="cloud" className='absolute -top-14 left-1/5 scale-90' />
-        <img src="/dream/cloud5.svg" alt="cloud" className='absolute top-1 -right-4 z-10 scale-90' />
-        <img src="/dream/cloud.svg" alt="cloud" className='absolute bottom-0 -left-10 scale-75' />
-        <img src="/dream/cloud2.svg" alt="cloud" className='absolute -bottom-7 left-96 ' />
-        <img src="/dream/cloud2.svg" alt="cloud" className='absolute bottom-20 right-80 scale-90 ' />
-        <img src="/dream/cloud4.svg" alt="cloud" className='absolute -bottom-10 -right-3 scale-90' />
-
-        <div className='relative flex flex-col justify-center items-center text-white text-6xl font-galpike p-10'>
+    <div id='Dream' className='bg-custom h-screen flex justify-center items-center'>
+      <div className='relative flex flex-col justify-center items-center text-black p-3 md:p-10'>
+        <h1 className='text-3xl  sm:text-6xl md:text-5xl lg:text-8xl xl:text-7xl  font-galpike text-center'>
           Try our AI Based
-          <img src="/dream/line.svg" alt="line" className='absolute top-0 scale-75 ml-60' />
-          <div className='font-rocaThI mt-4'>Dream Analyzer</div>
-          <Link to="/dream-analyzer">
-          <button className="mt-14 px-6 py-3 text-2xl bg-[#42536A] text-white rounded-full hover:bg-[#e0dfdc] hover:text-black transition duration-300 hover:text-medium ">
-            Tell a Dream
-          </button></Link>
+        </h1>
+        <img src="/dream/line.svg" alt="line" className='absolute top-3 scale-75 left-72 mb-3 xl:block hidden' />
+        <div className='font-RocaHeavyItalic mt-7  text-3xl sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl text-center'>
+          Dream Analyzer
         </div>
-
-        <img src="/dream/girl.svg" alt="girl" className='scale-90' />
+        <Link to="/dream-analyzer">
+          <button className="mt-10 md:mt-14 px-4 md:px-6 py-2 md:py-3 text-xl sm:text-2xl md:text-2xl lg:text-3xl bg-[#42536A] text-white rounded-full hover:bg-[#e0dfdc] hover:text-black transition duration-300">
+            Tell a Dream
+          </button>
+        </Link>
       </div>
     </div>
-
   );
 }
 

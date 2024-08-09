@@ -31,7 +31,8 @@ export default {
         halimun: ['halimun', 'sans-serif'],
         rocaThin: ['rocaThin', 'sans-serif'],
         Rspring: ['Rspring', 'sans-serif'],
-        Bspring: ['Bspring', 'sans-serif']
+        Bspring: ['Bspring', 'sans-serif'],
+        RocaHeavyItalic: ['Roca-Heavy-Italic', 'sans-serif'],
       },
 
       boxShadow: {

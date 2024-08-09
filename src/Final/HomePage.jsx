@@ -21,7 +21,7 @@ function HomePage() {
     <DetoxPage/>
     <Dream/>
     <TherapyPage/>
-    <img src="/heal.svg" alt="" className="w-full" />
+    <img src="/heal.svg" alt="" className="w-full lg:block hidden" />
      <ArticlePage/>
      <DostPage/>
      <ReviewPage/>
