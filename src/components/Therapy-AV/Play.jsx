@@ -12,7 +12,7 @@ function Play() {
                     <div className='flex items-center flex-wrap justify-center'>
                         <img src="/AV/tab.svg" alt="tab" className=' sm:block hidden w-16 md:w-auto md:scale-75 mr-2 md:mr-5' />
                         <div className='inline-block bg-[#c3d5f7] rounded px-2 my-4'>
-                            <div className='font-Rspring text-3xl md:text-5xl'>Explore Therapy Videos</div>
+                            <div className='font-Rspring text-[28px] md:text-5xl'>Explore Therapy Videos</div>
                         </div>
                         <img src="/AV/star.svg" alt="star" className='sm:block hidden w-16 md:w-auto md:scale-75 ml-2 md:ml-4 -mt-8 md:-mt-16' />
                     </div>

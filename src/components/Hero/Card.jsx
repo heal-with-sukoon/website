@@ -56,7 +56,7 @@ function Card() {
     }, []);
 
     return (
-        <div className="flex justify-center scale-90 sm:scale-95 lg:scale-100 mb-10 sm:mb-15 lg:mb-20 mt-10 sm:mt-15 lg:mt-20 overflow-hidden">
+        <div className="flex justify-center scale-90 sm:scale-95 lg:scale-100 mb-10 sm:mb-15 lg:mb-20 mt-10 sm:mt-10 lg:mt-20 overflow-hidden">
             <div className="relative w-full sm:w-[450px] md:w-[500px] lg:w-[500px] h-[320px] sm:h-[360px] md:h-[400px] lg:h-[400px] overflow-hidden">
                 <div 
                     className="flex transition-transform duration-500 ease-in-out"
