@@ -5,7 +5,7 @@ function Hero() {
     return (
         <section className="bg-[#122620] rounded-bl-[150px] md:rounded-bl-[200px] lg:rounded-bl-[299px] shadow-shd">
             <div className="flex flex-col lg:flex-row justify-center items-center px-4 lg:px-0">
-                <div className="text-white mt-10 lg:mt-28 mb-10 lg:mb-0 text-center lg:text-center lg:ml-20">
+                <div className="text-white mt-10 lg:mt-20 mb-10 lg:mb-0 text-center lg:text-center lg:ml-20">
                     <div className="text-3xl sm:text-4xl lg:text-5xl mb-4 font-rocaThI relative">
                         Helping you <span className=''>Heal</span> with
                     </div>
@@ -16,7 +16,7 @@ function Hero() {
                         Wanna Talk About It?
                     </button>
                 </div>
-                <div className="w-full mx-4 sm:mx-auto md:max-w-[90%] lg:w-auto">
+                <div className="w-[375px] mx-4 mb-20 -mt-16 sm:pt-10 sm:mx-auto md:max-w-[90%] lg:w-auto">
                     <Card />
                 </div>
             </div>

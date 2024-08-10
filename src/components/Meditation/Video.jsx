@@ -65,7 +65,10 @@ function Video() {
                 {/* Modal */}
                 <dialog id="my_modal_1" className="modal">
                     <div className="modal-box w-full max-w-3xl">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/60Gnd8Wy0gE?si=upIwaNEocJRZtbWJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/60Gnd8Wy0gE?si=upIwaNEocJRZtbWJ&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+
+                        {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/aFoMYz_jWcs?si=bKHALhW-BT6bmE5n&amp;controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" ></iframe> */}
+
                         <div className="modal-action">
                             <form method="dialog">
                                 <button className="btn">Close</button>

@@ -6,16 +6,18 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-   
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-      });
+      setTimeout(() => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
+      }, 0); 
     };
 
-    handleScroll(); 
+    handleScroll();
 
-    return ()=>{} ;
+    return () => {
+    };
   }, [pathname]);
 
   return null;

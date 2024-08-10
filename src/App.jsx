@@ -10,7 +10,6 @@ function App() {
     <div className="">
     <Navbar/>
     <Outlet/>
-    {/* <Expert/> */}
     <Footer/>
     </div>
     </>
