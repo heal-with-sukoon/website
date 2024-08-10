@@ -1,70 +1,65 @@
+import { style } from 'motion';
 import React from 'react';
 
-
-import { SocialIcon } from 'react-social-icons'
 const AboutUs = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-white h-screen">
-
-      <div className="flex-1 flex flex-col justify-center items-start px-10 ">
-        <div className='text-end ml-52 -mt-24'>
-        <div className="text-8xl font-bold font-hanoble">ABOUT</div>
-        <div className="mt-3 text-8xl font-light mb-8 font-Bspring">US</div>
+    <div className="flex flex-col lg:flex-row bg-white min-h-screen">
+      <div className="flex-1 flex flex-col justify-center items-start px-4 lg:px-10 py-8 lg:py-0">
+        <div className='text-center lg:text-end lg:ml-52 lg:-mt-24 w-full lg:w-auto'>
+          <div className="text-6xl lg:text-8xl font-bold font-hanoble">ABOUT</div>
+          <div className="mt-3 text-6xl lg:text-8xl font-light mb-8 font-Bspring">US</div>
         </div>
-        <p className="text-lg">
+        <p className="text-base lg:text-lg text-center lg:text-left">
           A LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.
           UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT.
           DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE EU FUGIAT NULLA PARIATUR.
         </p>
       </div>
 
-      <img src="/AboutUs/BLine.svg" alt="line" className='mr-5' />
+      <img src="/AboutUs/BLine.svg" alt="line" className='hidden lg:block mr-5' />
 
-      <div className=''>
-        <div className='flex '>
-          <div className='mr-3 mt-6 ml-14'>
-            <img src="/AboutUs/LinkedIn.svg" alt="linkedin" className='cursor-pointer' />
-            <div  className='py-2 font-medium'>MORGAN <br /> MAXWELl</div>
-            <img src="/AboutUs/SLine.svg" alt="l" />
-            <div className='mt-2 font-semibold text-2xl font-Rspring'>CEO</div>
-          </div>
-          <img src="/AboutUs/w1.svg" alt="women" className='bg-yellow-500 h-[319px] border-black border-x-4 border-b-4' />
-        </div>
-
-        <div className='flex '>
-          <div className='mr-3 mt-10  ml-14'>
-          <img src="/AboutUs/LinkedIn.svg" alt="linkedin" className='cursor-pointer' />
-            <div  className='py-2 font-medium'>MORGAN <br /> MAXWELl</div>
-            <img src="/AboutUs/SLine.svg" alt="l" />
-            <div className='mt-2 font-semibold text-2xl font-Rspring'>CEO</div>
-          </div>
-          <img src="/AboutUs/w1.svg" alt="women" className='bg-red-500 h-[319px] border-black border-x-4 border-b-4' />
-        </div>
+      <div className='flex flex-col lg:flex-row justify-center items-center lg:items-start lg:space-x-4 mt-8 lg:mt-0'>
+        <TeamMember1 bgColor="bg-yellow-500" />
+        <TeamMember2 bgColor="bg-red-500" />
       </div>
-
-      <div className='ml-20'>
-        <div className='flex '>
-          <div className='-ml-3  mr-3 mt-32'>
-          <img src="/AboutUs/LinkedIn.svg" alt="linkedin" className='cursor-pointer' />
-            <div className='py-2 font-medium'>MORGAN <br /> MAXWELl</div>
-            <img src="/AboutUs/SLine.svg" alt="l" />
-            <div className='mt-2 font-semibold text-2xl font-Rspring'>Project <br />Manager</div>
-          </div>
-          <img src="/AboutUs/w1.svg" alt="women" className='bg-yellow-500 h-[319px] border-black border-x-4 border-b-4' />
-        </div>
-        <div className='flex '>
-          <div className='-ml-3 mr-3 mt-32' >
-          <img src="/AboutUs/LinkedIn.svg" alt="linkedin" className='cursor-pointer' />
-            <div  className='py-2 font-medium'>MORGAN <br /> MAXWELl</div>
-            <img src="/AboutUs/SLine.svg" alt="l" />
-            <div className='mt-2 font-semibold text-2xl font-Rspring'>Graphics <br />Designer</div>
-          </div>
-          <img src="/AboutUs/w1.svg" alt="women" className='bg-red-500 h-[319px] border-black border-x-4 border-b-4' />
-        </div>
-      </div>
-
     </div>
   );
+};
+
+const TeamMember1 = ({ bgColor }) => (
+  <div className='flex flex-col space-y-0 lg:space-y-0'>
+    <TeamMember bgColor={bgColor} name="MORGAN MAXWELLLL" position="CEO" index='1' />
+    <TeamMember bgColor={bgColor} name="CHARLIE GOYAL" position="Project Manager" index='2' />
+
+  </div>
+);
+
+const TeamMember2 = ({ bgColor }) => (
+  <div className='flex flex-col space-y-0 justify-start lg:space-y-0'>
+    <TeamMember bgColor={bgColor} name="MGAN MAXWELLLL" position="CTO" index='3' />
+    <TeamMember bgColor={bgColor} name="CHHHHHE GOYAL" position="Developer" index='4' />
+
+  </div>
+);
+
+const TeamMember = ({ bgColor, name, position, index }) => {
+  const style3 = (index == 1 ) ? 'border-t-4' : '';
+  const style1 = (index == 1 || index == 2) ? 'hidden' : 'block';
+  const style2 = (index == 3 || index == 4) ? 'md:block hidden' : '';
+  return (
+    <>
+      <div className=' flex  overflow-hidden lg:flex-row items-center lg:items-start'>
+        <img src="/AboutUs/w1.svg" alt="team member" className={` ${style1}  md:hidden block ${bgColor} h-[250px] lg:h-[319px] border-black border-x-4 border-b-4  lg:w-auto`} />
+        <div className='mb-4 lg:mb-0 lg:mr-3 lg:mt-6 text-center lg:text-left'>
+          <img src="/AboutUs/LinkedIn.svg" alt="linkedin" className='cursor-pointer mx-auto lg:mx-0' />
+          <div className='py-2 font-medium'>{name}</div>
+          <img src="/AboutUs/SLine.svg" alt="l" className='mx-auto lg:mx-0' />
+          <div className='mt-2 font-semibold text-2xl font-Rspring'>{position}</div>
+        </div>
+        <img src="/AboutUs/w1.svg" alt="team member" className={`${bgColor} ${style3}  ${style2}   h-[250px] lg:h-[319px] border-black border-x-4 border-b-4 lg:w-auto`} />
+      </div>
+    </>
+  )
 };
 
 export default AboutUs;

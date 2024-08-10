@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
-//import Markdown from 'react-markdown';
-import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from '@google/generative-ai';
+import React, { useState } from 'react';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const genAI = new GoogleGenerativeAI("AIzaSyAgU67wkTvzCb7MNjwYM7QYwvRsJCfHPqY");
 
@@ -8,6 +7,7 @@ function App() {
   const [llmResponse, setLlmResponse] = useState("");
   const [dreamInput, setDreamInput] = useState(''); 
   const [analysisOutput, setAnalysisOutput] = useState(''); 
+  const [isLoading, setIsLoading] = useState(false);
 
   const model = genAI.getGenerativeModel({
     model: "gemini-1.5-pro",
@@ -23,6 +23,7 @@ function App() {
   };
 
   async function run(prompt) {
+    setIsLoading(true);
     try {
       const chatSession = model.startChat({
         generationConfig,
@@ -49,6 +50,8 @@ function App() {
       setAnalysisOutput(text);
     } catch (error) {
       console.error("Error generating analysis:", error);
+    } finally {
+      setIsLoading(false);
     }
   }
 
@@ -74,26 +77,33 @@ function App() {
           </div>
         </div>
 
-        <div className="flex justify-around mt-10">
-          <div className="p-4 ml-20">
+        <div className="flex flex-col md:flex-row justify-around mt-10">
+          <div className="p-4 w-full md:w-auto md:ml-20">
             <textarea
               placeholder="Please Describe Your Dream In As Much Detail As Possible.&#10;&#10;Include Where The Dream Took Place And The Environment, Summarize The Key Actions And Events, And Share How You Felt Along With Any Symbols Or Recurring Themes."
-              className={`w-3/4 h-80 p-7 rounded-[41px] border border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 placeholder:text-xl text-xl placeholder-black resize-none bg-white opacity-60`}
+              className="w-full md:w-3/4 h-80 p-7 rounded-[41px] border border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 placeholder:text-lg text-xl placeholder-black resize-none bg-white opacity-60"
               value={dreamInput}
               onChange={(e) => setDreamInput(e.target.value)}
             />
             <button
-              className="ml-24 mb-10 mt-6 px-7 py-2 text-2xl bg-[#0E176E] hover:text-white text-white rounded-full hover:bg-[#101ead] transition duration-300 hover:text-medium"
-              onClick={() => run(dreamInput)} 
+              className="w-full md:w-auto mt-6 px-7 py-2 text-2xl bg-[#0E176E] hover:text-white text-white rounded-full hover:bg-[#101ead] transition duration-300 hover:text-medium"
+              onClick={() => run(dreamInput)}
+              disabled={isLoading}
             >
-              Analyze Dream
+              {isLoading ? (
+                <div className="flex items-center justify-center">
+                  <div className="animate-spin rounded-full h-6 w-6 border-t-2 border-b-2 border-white"></div>
+                </div>
+              ) : (
+                'Analyze Dream'
+              )}
             </button>
           </div>
-          <div>
+          <div className="w-full md:w-auto mt-6 md:mt-0 px-4 md:px-0">
             <textarea
               readOnly
               placeholder="Your dream analysis will appear here ...😴"
-              className={`w-[650px] h-96 p-4 rounded-[25px] border border-blue-300 focus:outline-none focus:ring-2 placeholder:text-xl text-xl placeholder-black resize-flex  bg-white opacity-60`}
+              className="w-full mb-10 md:w-[650px] h-96 p-4 rounded-[25px] border border-blue-300 focus:outline-none focus:ring-2 placeholder:text-lg text-xl placeholder-black resize-flex bg-white opacity-60"
               value={analysisOutput} 
             />
           </div>
