@@ -10,9 +10,8 @@ const AboutUs = () => {
           <div className="mt-3 text-6xl lg:text-8xl font-light mb-8 font-Bspring">US</div>
         </div>
         <p className="text-base lg:text-lg text-center lg:text-left">
-          A LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.
-          UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT.
-          DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE EU FUGIAT NULLA PARIATUR.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur culpa, error blanditiis eius voluptates saepe excepturi perspiciatis itaque vitae ipsam! Aliquid fugiat quis quasi rerum nesciunt possimus cum iusto!
+          
         </p>
       </div>
 
@@ -28,16 +27,16 @@ const AboutUs = () => {
 
 const TeamMember1 = ({ bgColor }) => (
   <div className='flex flex-col space-y-0 lg:space-y-0'>
-    <TeamMember bgColor={bgColor} name="MORGAN MAXWELLLL" position="CEO" index='1' />
-    <TeamMember bgColor={bgColor} name="CHARLIE GOYAL" position="Project Manager" index='2' />
+    <TeamMember bgColor={bgColor} name="ANAMIKA AGGARWAL" position="Frontend Developer" index='1' />
+    <TeamMember bgColor={bgColor} name="ANUSHA TOMAR" position="AI Developer  " index='2' />
 
   </div>
 );
 
 const TeamMember2 = ({ bgColor }) => (
   <div className='flex flex-col space-y-0 justify-start lg:space-y-0'>
-    <TeamMember bgColor={bgColor} name="MGAN MAXWELLLL" position="CTO" index='3' />
-    <TeamMember bgColor={bgColor} name="CHHHHHE GOYAL" position="Developer" index='4' />
+    <TeamMember bgColor={bgColor} name="AYESHA" position="UI UX Designer" index='3' />
+    <TeamMember bgColor={bgColor} name="PRANITDEEP SINGH" position="Backend Developer" index='4' />
 
   </div>
 );

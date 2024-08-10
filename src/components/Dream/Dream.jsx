@@ -15,7 +15,7 @@ function Dream() {
         </div>
         <Link to="/dream-analyzer">
           <button className="mt-10 md:mt-14 px-4 md:px-6 py-2 md:py-3 text-xl sm:text-2xl md:text-2xl lg:text-3xl bg-[#42536A] text-white rounded-full hover:bg-[#e0dfdc] hover:text-black transition duration-300">
-            Tell a Dream
+            Give it a go
           </button>
         </Link>
       </div>

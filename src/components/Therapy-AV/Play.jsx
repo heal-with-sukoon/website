@@ -4,6 +4,14 @@ import './Play.css'
 function Play() {
     const openModal1 = () => document.getElementById('my_modal_1').showModal();
     const openModal2 = () => document.getElementById('my_modal_2').showModal();
+    const openModal3 = () => document.getElementById('my_modal_3').showModal();
+    const openModal4 = () => document.getElementById('my_modal_4').showModal();
+    const openModal5 = () => document.getElementById('my_modal_5').showModal();
+
+    const openModal6 = () => document.getElementById('my_modal_6').showModal();
+
+
+
 
     return (
         <div>
@@ -29,7 +37,7 @@ function Play() {
                             </div>
                         </div>
 
-                        <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)] bg-[#7394C4] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal1}>
+                        <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)] bg-[#7394C4] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal2}>
                             <div className="h-14 w-14 rounded-full bg-white flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 384 512" className="fill-black">
                                     <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
@@ -37,7 +45,7 @@ function Play() {
                             </div>
                         </div>
 
-                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(25%-1rem)] lg:w-[calc(25%-1.5rem)] bg-[#0D1F43] p-8 h-44 rounded-[40px] cursor-pointer flex items-center justify-center" onClick={openModal1}>
+                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(25%-1rem)] lg:w-[calc(25%-1.5rem)] bg-[#0D1F43] p-8 h-44 rounded-[40px] cursor-pointer flex items-center justify-center" onClick={openModal3}>
                             <div className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 384 512" className="fill-black">
                                     <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
@@ -45,7 +53,7 @@ function Play() {
                             </div>
                         </div>
 
-                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)] bg-[#A9C6FF] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal1}>
+                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)] bg-[#A9C6FF] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal4}>
                             <div className="h-14 w-14 rounded-full bg-white flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 384 512" className="fill-black">
                                     <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
@@ -53,7 +61,7 @@ function Play() {
                             </div>
                         </div>
 
-                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(25%-1rem)] lg:w-[calc(25%-1.5rem)] bg-[#507FC5] text-white p-8 h-44 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal1}>
+                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(25%-1rem)] lg:w-[calc(25%-1.5rem)] bg-[#507FC5] text-white p-8 h-44 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal5}>
                             <div className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 384 512" className="fill-black">
                                     <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
@@ -70,9 +78,9 @@ function Play() {
 
             {/* Modals */}
             <dialog id="my_modal_1" className="modal">
-                <div className="modal-box w-full max-w-3xl">
-                    <div className="aspect-w-16 aspect-h-9">
-                        <iframe src="https://www.youtube.com/embed/60Gnd8Wy0gE?si=upIwaNEocJRZtbWJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <div className="modal-box w-full max-w-2xl h-180px">
+                    <div className="aspect-w-9 aspect-h-16">
+                        <iframe src="/Therapy/video1.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{width: "635px" , height: "374px"}}></iframe>
                     </div>
                     <div className="modal-action">
                         <form method="dialog">
@@ -82,7 +90,63 @@ function Play() {
                 </div>
             </dialog>
 
-            <dialog id="my_modal_2" className="modal modal-bottom sm:modal-middle">
+            <dialog id="my_modal_2" className="modal">
+                <div className="modal-box w-full max-w-2xl h-180px">
+                    <div className="aspect-w-9 aspect-h-16">
+                        <iframe src="/Therapy/video2.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{width: "635px" , height: "374px"}}></iframe>
+                    </div>
+                    <div className="modal-action">
+                        <form method="dialog">
+                            <button className="btn">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
+
+
+            
+            <dialog id="my_modal_3" className="modal">
+                <div className="modal-box w-full max-w-2xl h-180px">
+                    <div className="aspect-w-9 aspect-h-16">
+                        <iframe src="/Therapy/video3.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{width: "635px" , height: "374px"}}></iframe>
+                    </div>
+                    <div className="modal-action">
+                        <form method="dialog">
+                            <button className="btn">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
+
+            
+            <dialog id="my_modal_4" className="modal">
+                <div className="modal-box w-full max-w-2xl h-180px">
+                    <div className="aspect-w-9 aspect-h-16">
+                        <iframe src="/Therapy/video4.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{width: "635px" , height: "374px"}}></iframe>
+                    </div>
+                    <div className="modal-action">
+                        <form method="dialog">
+                            <button className="btn">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
+
+            
+            <dialog id="my_modal_5" className="modal">
+                <div className="modal-box w-full max-w-2xl h-180px">
+                    <div className="aspect-w-9 aspect-h-16">
+                        <iframe src="/Therapy/video5.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{width: "635px" , height: "374px"}}></iframe>
+                    </div>
+                    <div className="modal-action">
+                        <form method="dialog">
+                            <button className="btn">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
+
+            <dialog id="my_modal_6" className="modal modal-bottom sm:modal-middle" >
                 <div className="modal-box">
                     <h3 className="font-bold text-lg">Hello!</h3>
                     <p className="py-4">Press ESC key or click the button below to close</p>
