@@ -3,7 +3,7 @@ import Detox from '../../components/Detox/Detox'
 
 function DetoxPage() {
   return (
-    <div  id='Detox'>
+    <div id='Detox'>
         <Detox/>
     </div>
   )

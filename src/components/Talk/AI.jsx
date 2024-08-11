@@ -7,7 +7,7 @@ function AI() {
       <div className='text-white font-tan text-2xl sm:text-3xl md:text-4xl text-center px-4 py-10 sm:p-20'>
         quis nostrud exercitation ullamco laboris yuri.
       </div>
-      <div className='flex justify-center items-center pb-10 sm:pb-20'>
+      <div className='flex justify-center items-center pb-10 sm:pb-20 overflow-hidden'>
         <Blob />
       </div>
     </div>
