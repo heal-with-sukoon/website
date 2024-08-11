@@ -7,7 +7,7 @@ function Detox() {
     <div>
         <Audio/>
         <Video/>
-        <Doodle/>
+        {/* <Doodle/> */}
     </div>
   )
 }

@@ -1,5 +1,5 @@
 'use client';
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect,useState } from 'react';
 import { projects } from './Data';
 import Card from './Card/Card';
 import { motion, useScroll, useTransform } from 'framer-motion';
@@ -16,9 +16,7 @@ function Review() {
     const isSticky = useTransform(scrollYProgress, [0, 0.9], ['sticky', 'relative']);
 
     useEffect(() => {
-        const lenis = new Lenis({
-            smoothTouch: true, // Improve touch scroll behavior on mobile
-        });
+        const lenis = new Lenis();
 
         function raf(time) {
             lenis.raf(time);
@@ -26,14 +24,12 @@ function Review() {
         }
 
         requestAnimationFrame(raf);
-
-        return () => lenis.destroy(); // Clean up on unmount
     }, []);
 
     return (
         <div ref={container} className='relative -mb-24'>
             <motion.div 
-                className='text-4xl md:text-6xl font-hanoble pt-14 text-center z-50 bg-[#E3DFF8]' 
+                className='text-4xl md:text-6xl font-hanoble pt-14 text-center z-50  bg-[#E3DFF8]' 
                 style={{ position: isSticky, top: 0 }}
             >
                 You Are Not Alone

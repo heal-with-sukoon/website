@@ -28,7 +28,7 @@ const AboutUs = () => {
 const TeamMember1 = ({ bgColor }) => (
   <div className='flex flex-col space-y-0 lg:space-y-0'>
     <TeamMember bgColor={bgColor} name="ANAMIKA AGGARWAL" position="Frontend Developer" index='1' />
-    <TeamMember bgColor={bgColor} name="ANUSHA TOMAR" position="AI Developer  " index='2' />
+    <TeamMember bgColor={bgColor} name="ANUSHA TOMAR" position="AI &nbsp; Developer  " index='2' />
 
   </div>
 );
@@ -42,7 +42,7 @@ const TeamMember2 = ({ bgColor }) => (
 );
 
 const TeamMember = ({ bgColor, name, position, index }) => {
-  const style3 = (index == 1 ) ? 'border-t-4' : '';
+  const style3 = (index == 1 ) ? 'border-t-4,sm:border-t-0' : '';
   const style1 = (index == 1 || index == 2) ? 'hidden' : 'block';
   const style2 = (index == 3 || index == 4) ? 'md:block hidden' : '';
   return (
