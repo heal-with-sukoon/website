@@ -7,7 +7,7 @@ function Article() {
     <div className='pb-12'>
         <Acard/>
         <div className='text-end mr-14'>
-        <Link to="/dream-analyzer">
+        <Link to="/blogs">
           <button className="mt-14 px-6 py-3 text-2xl bg-[#44444433] text-black rounded-full hover:bg-[#4444444d] hover:text-black transition duration-300 hover:text-medium ">
             Read More
           </button>

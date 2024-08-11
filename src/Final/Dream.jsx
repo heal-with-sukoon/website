@@ -82,10 +82,11 @@ function App() {
           <div className="p-4 w-full md:w-auto md:ml-20">
             <textarea
               placeholder="Please Describe Your Dream In As Much Detail As Possible.&#10;&#10;Include Where The Dream Took Place And The Environment, Summarize The Key Actions And Events, And Share How You Felt Along With Any Symbols Or Recurring Themes."
-              className="w-full md:w-3/4 h-80 p-7 rounded-[41px] border border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 placeholder:text-lg text-xl placeholder-black resize-none bg-white opacity-60"
+              className="w-full md:w-3/4 h-80 p-7 rounded-[41px] border border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 placeholder:text-lg text-6xl placeholder-black resize-none bg-white opacity-60"
               value={dreamInput}
               onChange={(e) => setDreamInput(e.target.value)}
             />
+            <br />
             <button
               className="w-full md:w-auto mt-6 px-7 py-2 text-2xl bg-[#0E176E] hover:text-white text-white rounded-full hover:bg-[#101ead] transition duration-300 hover:text-medium"
               onClick={() => run(dreamInput)}

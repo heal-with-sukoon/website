@@ -6,7 +6,7 @@ import ScrollToTop from "./scrollToTop"
 function App() {
   return (
     <>
-    {/* <ScrollToTop/> */}
+    <ScrollToTop/>
     <div className="">
     <Navbar/>
     <Outlet/>

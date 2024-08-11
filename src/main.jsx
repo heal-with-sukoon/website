@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { ChakraProvider } from '@chakra-ui/react'
 import * as ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -11,12 +10,17 @@ import {
   createRoutesFromElements,
 
 } from "react-router-dom";
+import { Provider } from 'react-redux';
+import { store } from './store/store.js';
+
 import TherapistPage from './Final/TherapistPage.jsx'
 import Dream from './Final/Dream.jsx'
 import Detox from './Final/Detox.jsx'
 import Talk from './Final/Talk.jsx'
 import AboutUs from './Final/AboutUs.jsx'
 import TherapyPage from './Final/TherapyPage.jsx'
+import Blog from './pages/Blog/Blog.jsx'
+import Create from './pages/Blog/Create.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -30,6 +34,8 @@ const router = createBrowserRouter(
       <Route path="talk-with-ai" element={<Talk />} />
       <Route path="about-us" element={<AboutUs />} />
       <Route path="audio-video-therapy" element={<TherapyPage />} />
+      <Route path="/blogs" element={<Blog />} />
+      <Route path="/create-a-blog" element={<Create />} />
     </Route>
 
 
@@ -38,9 +44,10 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ChakraProvider>
+
+    <Provider store={store}>
       <RouterProvider router={router} />
-    </ChakraProvider>
+    </Provider>
 
   </React.StrictMode>,
 )

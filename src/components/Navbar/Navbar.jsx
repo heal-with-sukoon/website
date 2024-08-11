@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex items-center space-x-4">
         <a href="/about-us" className="text-white text-2xl hover:underline p-4 ">About us</a>
         <a href="/book-session" className="text-white text-2xl hover:underline p-4">Find support</a>
-        <a href="#" className="text-white text-2xl hover:underline p-4">Blogs & Stories</a>
+        <a href="/blogs" className="text-white text-2xl hover:underline p-4">Blogs & Stories</a>
 
         <div className="dropdown dropdown-hover z-20">
           <div tabIndex={0} role="button" className=" text-white  text-2xl hover:underline m-1 ">More</div>
@@ -23,8 +23,8 @@ const Navbar = () => {
           <li className='-ml-3 '><Link smooth to='/dream-analyzer'>Dream Analyzer</Link></li>
           <li className='-ml-3 '><Link smooth to='/digital-detox'>Digital Detox</Link></li>
           <li className='-ml-3 '><Link smooth to='/audio-video-therapy'>Audio/Video Therapy</Link></li>
-          <li className='-ml-3 '><Link smooth to='/talk-with-ai'>Heal with a Dost</Link></li>
-          {/* <li className='-ml-3 '><Link smooth to={"#mental-health"}>About Mental Health</Link></li> */}
+          <li className='-ml-3 '><Link smooth to='/talk-with-ai'>Youth Corner</Link></li>
+          {/* <li className='-ml-3 '><Link smooth to=''></Link></li> */}
          
           </ul>
         </div>
