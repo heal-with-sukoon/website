@@ -85,9 +85,9 @@ const AudioPlayer = () => {
   };
 
   return (
-    <div className="bg-[#7C6448] flex -mt-5 items-center p-4 rounded-[180px]">
+    <div className="bg-[#94A4C1] flex -mt-5 items-center p-4 rounded-[180px]">
       <div
-        className="h-10 w-10 rounded-full bg-white hover:bg-[#FDD9A4] cursor-pointer flex items-center justify-center"
+        className="h-10 w-10 rounded-full bg-white hover:bg-[#A9C6FF] cursor-pointer flex items-center justify-center"
         onClick={togglePlayPause}
       >
         {isPlaying ? (
@@ -101,7 +101,7 @@ const AudioPlayer = () => {
         )}
       </div>
       <div className="mx-4 flex-grow">
-        <div className="text-white text-xs md:text-sm  mb-4">Guided Meditation By Sukoon</div>
+        <div className=" text-xs md:text-sm  mb-4">Guided Meditation By Sukoon</div>
         <div className="flex items-center">
           <span className="text-white text-xs -mt-5 mr-2">{formatTime(currentTime)}</span>
           <div
@@ -113,14 +113,14 @@ const AudioPlayer = () => {
               className="absolute top-0 left-0 w-full h-1 bg-white rounded-lg"
             ></div>
             <div
-              className="absolute top-0 left-0 h-1 bg-[#FDD9A4] rounded-lg"
+              className="absolute top-0 left-0 h-1 bg-[#4C5DB5] rounded-lg"
               style={{ width: `${(currentTime / duration) * 100}%` }}
             ></div>
             <input
               type="range"
               className="slider-thumb w-full h-1 bg-transparent appearance-none cursor-pointer relative z-10"
               style={{
-                '--thumb-color': '#5D4037',
+                '--thumb-color': '#0D1E44',
               }}
               value={duration ? (currentTime / duration) * 100 : 0}
               onChange={handleSliderChange}

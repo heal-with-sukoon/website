@@ -10,7 +10,7 @@ function Video() {
                 
                 {/* First Row */}
                 <div 
-                    className="col-span-3 bg-[#4A3A37] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer"
+                    className="col-span-3 bg-[#0D1E44] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer"
                     onClick={openModal1}
                 >
                     <div className="h-14 w-14 rounded-full bg-white flex items-center justify-center">
@@ -26,30 +26,30 @@ function Video() {
                     </div>                
                 </div>
 
-                <div className="col-span-3 bg-[#B7A394] p-8 rounded-[40px] flex items-center justify-center">
+                <div className="col-span-3 bg-[#A9C6FF] p-8 rounded-[40px] flex items-center justify-center">
                     <p className="text-2xl font-cursive text-center">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
                 </div>
                 
                 {/* Second Row */}
-                <div className="sm:block hidden col-span-2 bg-[#D5C5B5] p-8 rounded-[40px] flex items-center justify-center">
+                <div className="sm:block text-white hidden col-span-2 bg-[#4C5DB5] p-8 rounded-[40px] flex items-center justify-center">
                     <p className="text-2xl font-cursive text-center">Why Meditation</p>
                 </div>
 
-                <div className="col-span-2 bg-[#F7E0BD] p-8 rounded-[40px] flex items-center justify-center">
+                <div className="col-span-2 text-white bg-[#7A75BC] p-8 rounded-[40px] flex items-center justify-center">
                     <p className="text-2xl font-cursive text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus doloribus ab explicabo. Laborum provident debitis impedit voluptate nesciunt consequatur veritatis ab sit nostrum, adipim temporibus?</p>
                 </div>
 
-                <div className="col-span-2 bg-[#4A3A37] text-white p-8 rounded-[40px] flex items-center justify-center">
+                <div className="col-span-2 bg-[#4C5DB5] text-white p-8 rounded-[40px] flex items-center justify-center">
                     <p className="text-2xl font-cursive text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rat odio voluptatibus sapiente sequi, corporis libero repellat. Unde officiis porro corporis a numquam consectetur?</p>
                 </div>
                 
                 {/* Third Row */}
-                <div className="sm:block hidden col-span-3 bg-[#B7A394] p-8 rounded-[40px] h-52 flex items-center justify-center">
+                <div className="sm:block hidden col-span-3 bg-[#A9C6FF] p-8 rounded-[40px] h-52 flex items-center justify-center">
                     <p className="text-2xl font-cursive text-center">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
                 </div>
 
                 <div 
-                    className="col-span-3 bg-[#4A3A37] p-8 rounded-[40px] flex items-center justify-center cursor-pointer"
+                    className="col-span-3 bg-[#0D1E44] p-8 rounded-[40px] flex items-center justify-center cursor-pointer"
                     onClick={openModal2}
                 >
                     <div className="h-14 w-14 rounded-full m-10 bg-white flex items-center justify-center">
