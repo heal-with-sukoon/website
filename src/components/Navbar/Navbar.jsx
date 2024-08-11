@@ -6,7 +6,8 @@ const Navbar = () => {
 
   return (
     <nav className="  top-0  bg-[#122620] p-4 flex justify-between items-center shadow-shd">
-      <a href="/" className="text-white font-bold text-6xl pl-3 font-Roca">sukoon</a>
+      {/* <a href="/" className="text-white font-bold text-6xl pl-3 font-Roca">sukoon</a> */}
+      <img src="/logo.png" alt="" className='scale-50 -ml-44 -my-10'/>
 
       <div className="flex items-center space-x-4">
         <a href="/about-us" className="text-white text-2xl hover:underline p-4">About us</a>
