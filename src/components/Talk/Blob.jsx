@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 
 function Blob() {
     const [isClicked, setIsClicked] = useState(false);
@@ -13,7 +14,7 @@ function Blob() {
             position: 'relative', width: '500px', height: '500px', transform: isClicked ? 'scale(0.8)' : 'scale(1)',
             transition: 'transform 0.3s ease'
         }}
-        onClick={handleClick}
+        <Link to="https://vaani-by-sukoon--kappa.vercel.app/" onClick={handleClick}></Link>
         >
             <svg
                 viewBox="0 0 892 876"
