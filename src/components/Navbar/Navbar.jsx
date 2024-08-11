@@ -1,27 +1,30 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 // import { useState } from 'react';
 const Navbar = () => {
+  const navigate = useNavigate();
   // const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
     <nav className="  top-0  bg-[#122620] p-4 flex justify-between items-center shadow-shd">
       {/* <a href="/" className="text-white font-bold text-6xl pl-3 font-Roca">sukoon</a> */}
-      <img src="/logo.png" alt="" className='scale-50 -ml-44 -my-10'/>
+      <img src="/logo.png" alt="" className='scale-[.6] -ml-20 -my-6 cursor-pointer' onClick={()=>navigate('/')}/>
 
       <div className="flex items-center space-x-4">
-        <a href="/about-us" className="text-white text-2xl hover:underline p-4">About us</a>
-        <a href="#" className="text-white text-2xl hover:underline p-4">Find support</a>
+        <a href="/about-us" className="text-white text-2xl hover:underline p-4 ">About us</a>
+        <a href="/book-session" className="text-white text-2xl hover:underline p-4">Find support</a>
         <a href="#" className="text-white text-2xl hover:underline p-4">Blogs & Stories</a>
 
         <div className="dropdown dropdown-hover z-20">
           <div tabIndex={0} role="button" className=" text-white  text-2xl hover:underline m-1 ">More</div>
           <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box w-44 shadow">
-          <li className='-ml-3 '><Link smooth to={"#Dream"}>Dream Analyzer</Link></li>
-          <li className='-ml-3 '><Link smooth to={"#Detox"}>Digital Detox</Link></li>
-          <li className='-ml-3 '><Link smooth to={"#Therapy"}>Audio/Video Therapy</Link></li>
-          <li className='-ml-3 '><Link smooth to={"#Dost"}>Heal with a Dost</Link></li>
-          <li className='-ml-3 '><Link smooth to={"#mental-health"}>About Mental Health</Link></li>
+          <li className='-ml-3 '><Link smooth to='/dream-analyzer'>Dream Analyzer</Link></li>
+          <li className='-ml-3 '><Link smooth to='/digital-detox'>Digital Detox</Link></li>
+          <li className='-ml-3 '><Link smooth to='/audio-video-therapy'>Audio/Video Therapy</Link></li>
+          <li className='-ml-3 '><Link smooth to='/talk-with-ai'>Heal with a Dost</Link></li>
+          {/* <li className='-ml-3 '><Link smooth to={"#mental-health"}>About Mental Health</Link></li> */}
          
           </ul>
         </div>

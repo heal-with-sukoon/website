@@ -13,7 +13,7 @@ function Breathe() {
   }, []);
 
   return (
-    <div className='relative'>
+    <div className='relative scale-75 -ml-[60px] -mt-28 -mb-20 sm:mt-0 sm:ml-10 sm:scale-90 '>
       <div className="circle2">
         {text}
       </div>

@@ -16,7 +16,7 @@ function Hero() {
                         Wanna Talk About It?
                     </button>
                 </div>
-                <div className="w-[375px] mx-4 mb-20 -mt-16 sm:pt-10 sm:mx-auto md:max-w-[90%] lg:w-auto">
+                <div className="w-[375px] mx-4 mb-20 -mt-16 sm:pt-24 sm:mx-auto md:max-w-[90%] lg:w-auto">
                     <Card />
                 </div>
             </div>

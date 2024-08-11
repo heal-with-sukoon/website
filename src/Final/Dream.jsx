@@ -61,7 +61,7 @@ function App() {
         autoPlay
         muted
         loop
-        src="public\cloud\clouds.mp4"
+        src= "/cloud/cloud.mp4"
         style={{
           position: 'absolute',
           width: '100%',
@@ -70,6 +70,7 @@ function App() {
           zIndex: -1,
         }}
       ></video>
+      
       <div style={{ position: 'relative', zIndex: 1 }}>
         <div className="flex justify-center">
           <div className="mt-5 p-2 rounded-xl inline-block bg-white bg-opacity-60">
