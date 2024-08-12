@@ -13,3 +13,7 @@
     background: radial-gradient(circle, rgba(149, 179, 230, 1) 23%, rgba(201, 220, 255, 1) 83%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#95b3e6", endColorstr="#ffffff", GradientType=1);
 }
+
+.right-alligned{
+    float:right;
+}

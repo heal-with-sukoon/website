@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import './Play.css'
 
 function Play() {
@@ -69,7 +70,11 @@ function Play() {
                             </div>
                         </div>
                     </div>
+                    <div className='right-alligned'>
+                        <span>All Credits for these Videos: <Link to="https://www.youtube.com/@Psych2go"><b>Psych2go</b></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    </div>
                 </div>
+                
             </div>
 
             <div className='bg-blueCustom -mt-10 p-6'>
