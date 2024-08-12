@@ -19,7 +19,7 @@ import Detox from './Final/Detox.jsx'
 import Talk from './Final/Talk.jsx'
 import AboutUs from './Final/AboutUs.jsx'
 import TherapyPage from './Final/TherapyPage.jsx'
-import Blog from './pages/Blog/Blog.jsx'
+import Blogs from './pages/Blog/Blogs.jsx'
 import Create from './pages/Blog/Create.jsx'
 
 const router = createBrowserRouter(
@@ -34,8 +34,7 @@ const router = createBrowserRouter(
       <Route path="talk-with-ai" element={<Talk />} />
       <Route path="about-us" element={<AboutUs />} />
       <Route path="audio-video-therapy" element={<TherapyPage />} />
-      <Route path="/blogs" element={<Blog />} />
-      <Route path="/create-a-blog" element={<Create />} />
+      <Route path="/blogs" element={<Blogs />} />
     </Route>
 
 
