@@ -14,7 +14,6 @@ function Blogs() {
         setTimeout(() => setSelectedBlog(null), 300);
     };
 
-
     const blogs = [
         {
             img: "/blog/b1.svg",

@@ -47,7 +47,7 @@ const Acard = () => {
           onClick={closeModal}
         >
           <div 
-            className={`bg-white rounded-lg w-full max-w-md max-h-[90vh] overflow-y-auto transition-all duration-300 ${
+            className={`bg-white rounded-lg w-full md:max-w-md overflow-y-auto transition-all duration-300 ${
               isModalOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
             }`}
             onClick={(e) => e.stopPropagation()}

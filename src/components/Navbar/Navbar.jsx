@@ -1,101 +1,120 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import { Turn as Hamburger } from 'hamburger-react';
 
-// import { useState } from 'react';
 const Navbar = () => {
   const navigate = useNavigate();
-  // const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  // Close the dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isOpen]);
 
   return (
-    <nav className="  top-0  bg-[#122620] p-4 flex justify-between items-center shadow-shd">
-      {/* <a href="/" className="text-white font-bold text-6xl pl-3 font-Roca">sukoon</a> */}
-      <img src="/logo.png" alt="" className='scale-[.6] -ml-20 -my-6 cursor-pointer' onClick={()=>navigate('/')}/>
+    <nav className="top-0 bg-[#122620] p-4 flex justify-between items-center shadow-shd">
+      <img
+        src="/logo.png"
+        alt=""
+        className="scale-[.6] -ml-20 -my-6 cursor-pointer"
+        onClick={() => navigate('/')}
+      />
 
-      <div className="flex items-center space-x-4">
-        <a href="/about-us" className="text-white text-2xl hover:underline p-4 ">About us</a>
-        <a href="/book-session" className="text-white text-2xl hover:underline p-4">Find support</a>
-        <a href="/blogs" className="text-white text-2xl hover:underline p-4">Blogs & Stories</a>
-
-        <div className="dropdown dropdown-hover z-20">
-          <div tabIndex={0} role="button" className=" text-white  text-2xl hover:underline m-1 ">More</div>
-          <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box w-44 shadow">
-          <li className='-ml-3 '><Link smooth to='/dream-analyzer'>Dream Analyzer</Link></li>
-          <li className='-ml-3 '><Link smooth to='/digital-detox'>Digital Detox</Link></li>
-          <li className='-ml-3 '><Link smooth to='/audio-video-therapy'>Audio/Video Therapy</Link></li>
-          <li className='-ml-3 '><Link smooth to='/talk-with-ai'>Youth Corner</Link></li>
-          {/* <li className='-ml-3 '><Link smooth to=''></Link></li> */}
-         
-          </ul>
+      <div className="flex items-center space-x-4 relative">
+        <div className="lg:hidden block" ref={dropdownRef}>
+          <Hamburger
+            size={30}
+            direction="right"
+            color="#4FD1C5"
+            toggled={isOpen}
+            toggle={setIsOpen}
+          />
+          {isOpen && (
+            <ul
+              tabIndex={0}
+              className="absolute top-full mt-2 -ml-32 bg-base-100 rounded-box w-44 shadow z-20"
+            >
+              <li className="ml-3 py-1 text-base">
+                <Link to="/about-us">About Us</Link>
+              </li>
+              <li className="ml-3 py-1 text-base">
+                <Link to="/dream-analyzer">Dream Analyzer</Link>
+              </li>
+              <li className="ml-3 py-1 text-base">
+                <Link to="/digital-detox">Digital Detox</Link>
+              </li>
+              <li className="ml-3 py-1 text-base">
+                <Link to="/audio-video-therapy">Audio/Video Therapy</Link>
+              </li>
+              <li className="ml-3 py-1 text-base">
+                <Link to="/talk-with-ai">Youth Corner</Link>
+              </li>
+            </ul>
+          )}
         </div>
+        <div className="lg:block hidden">
+          <a href="/about-us" className="text-white text-2xl hover:underline p-5">
+            About us
+          </a>
+          <a
+            href="/book-session"
+            className="text-white text-2xl hover:underline p-5"
+          >
+            Find support
+          </a>
 
-        <a href="#" className="text-white text-2xl hover:underline p-4">Login</a>
+          <div className="dropdown dropdown-hover z-20">
+            <div
+              tabIndex={0}
+              role="button"
+              className="text-white text-2xl hover:underline m-1 p-3"
+            >
+              More
+            </div>
+            <ul
+              tabIndex={0}
+              className="dropdown-content menu bg-base-100 rounded-box w-44 shadow"
+            >
+              <li className="-ml-3">
+                <Link to="/dream-analyzer">Dream Analyzer</Link>
+              </li>
+              <li className="-ml-3">
+                <Link to="/digital-detox">Digital Detox</Link>
+              </li>
+              <li className="-ml-3">
+                <Link to="/audio-video-therapy">Audio/Video Therapy</Link>
+              </li>
+              <li className="-ml-3">
+                <Link to="/talk-with-ai">Youth Corner</Link>
+              </li>
+            </ul>
+          </div>
+          <a
+            href="/blogs"
+            className="text-white text-2xl hover:underline p-5"
+          >
+            Blogs & Stories
+          </a>
+        </div>
       </div>
     </nav>
   );
 };
 
 export default Navbar;
-
-
-  {/* <div 
-      className="relative group"
-      onMouseEnter={() => setDropdownOpen(true)}
-      onMouseLeave={() => setDropdownOpen(false)}
-    >
-      <button
-        className="flex items-center text-white hover:underline p-4 text-2xl"
-      >
-        More
-        <svg
-          className="ml-1 w-5 h-5"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M19 9l-7 7-7-7"
-          ></path>
-        </svg>
-      </button>
-      {dropdownOpen && (
-        <div
-          className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-md transition-opacity duration-300"
-        >
-          <a
-            href="#"
-            className="block px-4 py-2 text-gray-800 hover:bg-[#F5D9D6] font-medium"
-          >
-            Dream Analyzer
-          </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-gray-800 hover:bg-[#F5D9D6] font-medium"
-          >
-            Digital Detox
-          </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-gray-800 hover:bg-[#F5D9D6] font-medium"
-          >
-            Audio/Video Therapy
-          </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-gray-800 hover:bg-[#F5D9D6] font-medium"
-          >
-            Heal with a Dost
-          </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-gray-800 hover:bg-[#F5D9D6] font-medium"
-          >
-            About Mental Health
-          </a>
-        </div>
-      )}
-    </div> */}

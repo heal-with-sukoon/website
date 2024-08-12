@@ -56,7 +56,7 @@ function Card() {
     }, []);
 
     return (
-        <div className="flex justify-center scale-90 sm:scale-95 lg:scale-100 mb-10 sm:mb-15 lg:mb-10 mt-10 sm:mt-10 lg:mt-10 overflow-hidden">
+        <div className="flex justify-center scale-[.8] sm:scale-95 lg:scale-100 mb-10 sm:mb-15 lg:mb-10  sm:mt-10 lg:mt-10 overflow-hidden">
             <div className="relative w-full sm:w-[450px] md:w-[500px] lg:w-[500px] h-[320px] sm:h-[360px] md:h-[400px] lg:h-[400px] overflow-hidden">
                 <div 
                     className="flex transition-transform duration-500 ease-in-out"
@@ -82,7 +82,7 @@ function CardContent({ card, index }) {
                     <div className='flex relative'>
                         <img src="/Famous/c1.svg" alt="comma" className='absolute top-1 sm:top-2 -ml-4 lg:top-3 scale-50 sm:scale-60 md:scale-65 lg:scale-75' />
                         <div className='inline mr-3 sm:mr-3 lg:mr-4'>
-                            <div className='relative font-Rspring text-white text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-medium pl-8 sm:pl-10 md:pl-12 lg:pl-14 pt-2 sm:pt-3 md:pt-4 lg:pt-5'>
+                            <div className='relative font-Rspring text-white text-[25px] sm:text-3xl md:text-3xl lg:text-4xl font-medium pl-8 sm:pl-10 md:pl-12 lg:pl-14 pt-2 sm:pt-3 md:pt-4 lg:pt-5'>
                                 {card.line}
                                 <div><img src="/Famous/c2.svg" alt="comma" className='absolute right-6 sm:right-7 md:right-8 lg:right-8 scale-50 sm:scale-60 md:scale-65 lg:scale-75' /></div>
                             </div>

@@ -6,7 +6,7 @@ function Blob() {
 
     const handleClick = () => {
         setIsClicked(true);
-        setTimeout(() => setIsClicked(false), 300); // Reset after 300ms
+        setTimeout(() => setIsClicked(false), 300); 
     };
 
     return (
