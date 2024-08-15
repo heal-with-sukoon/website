@@ -20,8 +20,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold">Home</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="/about" className="hover:underline">About Us</a></li>
-              <li><a href="/support" className="hover:underline">Find Support</a></li>
+              <li><a href="/about-us" className="hover:underline">About Us</a></li>
+              <li><a href="/book" className="hover:underline">Find Support</a></li>
               <li><a href="/blogs" className="hover:underline">Blogs & Stories</a></li>
               <li><a href="/more" className="hover:underline">More</a></li>
             </ul>
@@ -30,16 +30,17 @@ const Footer = () => {
             <h3 className="text-xl font-semibold">Support</h3>
             <ul className="mt-4 space-y-2">
               <li><a href="/who-needs-help" className="hover:underline">Who Do You Think Needs Help?</a></li>
-              <li><a href="/book" className="hover:underline">Book a Session</a></li>
-              <li><a href="/heal" className="hover:underline">Heal With a Dost</a></li>
+              <li><a href="/book-session" className="hover:underline">Book a Session</a></li>
+              
             </ul>
           </div>
           <div>
             <h3 className="text-xl font-semibold">Services</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="/dream" className="hover:underline">AI Based Dream Analyzer</a></li>
-              <li><a href="/therapy" className="hover:underline">Audio & Video Therapy</a></li>
-              <li><a href="/detox" className="hover:underline">Digital Detox</a></li>
+              <li><a href="/dream-analyzer" className="hover:underline">AI Based Dream Analyzer</a></li>
+              <li><a href="/audio-video-therapy" className="hover:underline">Audio & Video Therapy</a></li>
+              <li><a href="/digital-detox" className="hover:underline">Digital Detox</a></li>
+              <li><a href="/talk-with-ai" className="hover:underline">Youth Corner</a></li>
             </ul>
           </div>
           <div>

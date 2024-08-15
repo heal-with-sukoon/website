@@ -1,10 +1,4 @@
-.custom-shadow {
-    -webkit-box-shadow: 4px 7px 9.5px 3.5px #7c6448;
-    -moz-box-shadow: 4px 7px 9.5px 3.5px #7c6448;
-    box-shadow: 4px 7px 9.5px 3.5px #7c6448;
-}
-
-button {
+/* .sparkle {
     position: relative;
     padding: 12px 35px;
     background: var(--color);
@@ -15,7 +9,7 @@ button {
     box-shadow: 0 0 0 #fec1958c;
     transition: all .3s ease-in-out;
     cursor: pointer;
-}
+} */
 
 .star-1 {
     position: absolute;
@@ -83,13 +77,8 @@ button {
     transition: all .8s ease;
 }
 
-button:hover {
-    background: transparent;
-    color: var(--color);
-    box-shadow: 0 0 25px #fec1958c;
-}
 
-button:hover .star-1 {
+.sparkle:hover .star-1 {
     position: absolute;
     top: -80%;
     left: -30%;
@@ -99,7 +88,7 @@ button:hover .star-1 {
     z-index: 2;
 }
 
-button:hover .star-2 {
+.sparkle:hover .star-2 {
     position: absolute;
     top: -25%;
     left: 10%;
@@ -109,7 +98,7 @@ button:hover .star-2 {
     z-index: 2;
 }
 
-button:hover .star-3 {
+.sparkle:hover .star-3 {
     position: absolute;
     top: 55%;
     left: 25%;
@@ -119,12 +108,12 @@ button:hover .star-3 {
     z-index: 2;
 }
 
-button:hover .stars {
+.sparkle:hover .stars {
     display: block;
     filter: drop-shadow(0 0 10px #fffdef);
 }
 
-button:hover .star-4 {
+.sparkle:hover .star-4 {
     position: absolute;
     top: 30%;
     left: 80%;
@@ -134,7 +123,7 @@ button:hover .star-4 {
     z-index: 2;
 }
 
-button:hover .star-5 {
+.sparkle:hover .star-5 {
     position: absolute;
     top: 25%;
     left: 115%;
@@ -144,7 +133,7 @@ button:hover .star-5 {
     z-index: 2;
 }
 
-button:hover .star-6 {
+.sparkle:hover .star-6 {
     position: absolute;
     top: 5%;
     left: 60%;
