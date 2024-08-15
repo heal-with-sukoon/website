@@ -30,7 +30,7 @@ function Audio() {
     <div className="flex flex-col md:flex-row bg-[#FBF4EE] pb-20 md:pb-0">
       <div>
         <div className="text-xl font-bold m-4 md:m-14">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veniam velit reprehenderit aliquam ab quia voluptatibus, expedita laborum quasi, atque fugit sunt cum libero, fuga consectetur nobis quis quod exercitationem!
+          Step away from the hustle and embrace calm with our digital detox meditations and soothing guidance.
         </div>
         <div className="text-xl ml-4  mr-4 md:ml-14 md:mr-20 md:block hidden">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veniam velit reprehenderit aliquam ab quia voluptatibus, expedita laborum quasi, atque fugit sunt cum libero, fuga consectetur nobis quis quod exercitationem!
