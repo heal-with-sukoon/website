@@ -24,7 +24,7 @@ function Doodle() {
                     <button className="font-betofin mb-10 mt-20 px-7 py-4 text-2xl bg-[#BDAA8C] text-black rounded-[42px] hover:bg-[#bfa478] transition duration-300 hover:text-medium">
                         Lets's Doodle
                     </button>
-
+ 
                     <button className=" font-betofin  mb-10 mt-20 px-7 py-5 text-2xl bg-[#BDAA8C] text-black rounded-[42px] hover:bg-[#bfa478] transition duration-300 hover:text-medium">
                         <div className='flex justify-center align-center'>
                             Magic Draw

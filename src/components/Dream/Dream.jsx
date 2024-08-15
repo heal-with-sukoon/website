@@ -9,7 +9,7 @@ function Dream() {
         <h1 className='text-3xl  sm:text-6xl md:text-5xl lg:text-8xl xl:text-7xl  font-galpike text-center'>
           Try our AI Based
         </h1>
-        <img src="/dream/line.svg" alt="line" className='absolute top-3 scale-75 left-72 mb-3 xl:block hidden' />
+        <img src="/dream/line.svg" alt="line" className='absolute left-14 -top-5 lg:top-3 scale-[.5] lg:scale-75 lg:left-72 mb-3 ' />
         <div className='font-RocaHeavyItalic mt-7  text-3xl sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl text-center'>
           Dream Analyzer
         </div>

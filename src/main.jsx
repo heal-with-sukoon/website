@@ -20,7 +20,6 @@ import Talk from './Final/Talk.jsx'
 import AboutUs from './Final/AboutUs.jsx'
 import TherapyPage from './Final/TherapyPage.jsx'
 import Blogs from './pages/Blog/Blogs.jsx'
-import Create from './pages/Blog/Create.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -34,7 +33,7 @@ const router = createBrowserRouter(
       <Route path="talk-with-ai" element={<Talk />} />
       <Route path="about-us" element={<AboutUs />} />
       <Route path="audio-video-therapy" element={<TherapyPage />} />
-      <Route path="/blogs" element={<Blogs />} />
+      <Route path="blogs" element={<Blogs />} />
     </Route>
 
 

@@ -78,7 +78,7 @@ function Help() {
               <img
                 src="/Help/Barrow.svg"
                 alt="Previous"
-                className="w-10 sm:w-12 md:w-14 lg:w-16 cursor-pointer pointer-events-none"
+                className="w-10 scale-75 md:scale-90 sm:w-12 md:w-14 lg:w-16 cursor-pointer pointer-events-none"
               />
             </button>
             <button
@@ -88,7 +88,7 @@ function Help() {
               <img
                 src="/Help/Farrow.svg"
                 alt="Next"
-                className="w-10 sm:w-12 md:w-14 lg:w-16 cursor-pointer pointer-events-none"
+                className="w-10 overflow-hidden scale-75  md:scale-90 sm:w-12 md:w-14 lg:w-16 cursor-pointer pointer-events-none"
               />
             </button>
           </div>
