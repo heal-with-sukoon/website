@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import './Play.css'
 
 function Play() {
@@ -29,7 +29,7 @@ function Play() {
 
                 <div className='bg-bottom-custom pb-5'>
                     <div className="p-4 md:p-5 mb-10 flex flex-wrap justify-center gap-4 md:gap-6 mt-10">
-                        <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)] bg-[#4E689B] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer"
+                        <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)] bg-[#4E689B]  bg-[url('/heal.svg')] bg-no-repeat bg-cover p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer"
                             onClick={openModal1}>
                             <div className="h-14 w-14 rounded-full bg-white flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 384 512" className="fill-black">
@@ -38,7 +38,7 @@ function Play() {
                             </div>
                         </div>
 
-                        <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)] bg-[#7394C4] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal2}>
+                        <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)] bg-[#7394C4]  bg-[url('/heal.svg')] bg-no-repeat bg-cover p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal2}>
                             <div className="h-14 w-14 rounded-full bg-white flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 384 512" className="fill-black">
                                     <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
@@ -46,7 +46,7 @@ function Play() {
                             </div>
                         </div>
 
-                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(25%-1rem)] lg:w-[calc(25%-1.5rem)] bg-[#0D1F43] p-8 h-44 rounded-[40px] cursor-pointer flex items-center justify-center" onClick={openModal3}>
+                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(25%-1rem)] lg:w-[calc(25%-1.5rem)] bg-[#0D1F43]  bg-[url('/heal.svg')] bg-no-repeat bg-cover p-8 h-44 rounded-[40px] cursor-pointer flex items-center justify-center" onClick={openModal3}>
                             <div className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 384 512" className="fill-black">
                                     <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
@@ -54,7 +54,7 @@ function Play() {
                             </div>
                         </div>
 
-                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)] bg-[#A9C6FF] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal4}>
+                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)] bg-[#A9C6FF]  bg-[url('/heal.svg')] bg-no-repeat bg-cover p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal4}>
                             <div className="h-14 w-14 rounded-full bg-white flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 384 512" className="fill-black">
                                     <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
@@ -62,7 +62,7 @@ function Play() {
                             </div>
                         </div>
 
-                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(25%-1rem)] lg:w-[calc(25%-1.5rem)] bg-[#507FC5] text-white p-8 h-44 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal5}>
+                        <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(25%-1rem)] lg:w-[calc(25%-1.5rem)] bg-[#507FC5]  bg-[url('/heal.svg')] bg-no-repeat bg-cover text-white p-8 h-44 rounded-[40px] flex items-center justify-center cursor-pointer" onClick={openModal5}>
                             <div className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 384 512" className="fill-black">
                                     <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
@@ -70,14 +70,14 @@ function Play() {
                             </div>
                         </div>
                     </div>
-                    <div className='right-alligned'>
+                    <div className='right-alligned '>
                         <span>All Credits for these Videos: <Link to="https://www.youtube.com/@Psych2go"><b>Psych2go</b></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </div>
                 </div>
-                
+
             </div>
 
-            <div className='bg-blueCustom -mt-10 p-6'>
+            <div className='bg-blueCustom -mt-10 p-8'>
                 {/* Content for this section */}
             </div>
 
@@ -85,7 +85,12 @@ function Play() {
             <dialog id="my_modal_1" className="modal">
                 <div className="modal-box w-full max-w-2xl h-180px">
                     <div className="aspect-w-9 aspect-h-16">
-                        <iframe src="/Therapy/video1.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{width: "635px" , height: "374px"}}></iframe>
+                        <video
+                            src="/Therapy/video1.mp4"
+                            controls
+                            style={{ width: "635px", height: "374px" }}
+                        >
+                        </video>
                     </div>
                     <div className="modal-action">
                         <form method="dialog">
@@ -98,7 +103,12 @@ function Play() {
             <dialog id="my_modal_2" className="modal">
                 <div className="modal-box w-full max-w-2xl h-180px">
                     <div className="aspect-w-9 aspect-h-16">
-                        <iframe src="/Therapy/video2.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{width: "635px" , height: "374px"}}></iframe>
+                    <video
+                            src="/Therapy/video2.mp4"
+                            controls
+                            style={{ width: "635px", height: "374px" }}
+                        >
+                        </video>
                     </div>
                     <div className="modal-action">
                         <form method="dialog">
@@ -109,11 +119,16 @@ function Play() {
             </dialog>
 
 
-            
+
             <dialog id="my_modal_3" className="modal">
                 <div className="modal-box w-full max-w-2xl h-180px">
                     <div className="aspect-w-9 aspect-h-16">
-                        <iframe src="/Therapy/video3.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{width: "635px" , height: "374px"}}></iframe>
+                    <video
+                            src="/Therapy/video3.mp4"
+                            controls
+                            style={{ width: "635px", height: "374px" }}
+                        >
+                        </video>
                     </div>
                     <div className="modal-action">
                         <form method="dialog">
@@ -123,11 +138,16 @@ function Play() {
                 </div>
             </dialog>
 
-            
+
             <dialog id="my_modal_4" className="modal">
                 <div className="modal-box w-full max-w-2xl h-180px">
                     <div className="aspect-w-9 aspect-h-16">
-                        <iframe src="/Therapy/video4.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{width: "635px" , height: "374px"}}></iframe>
+                    <video
+                            src="/Therapy/video5.mp4"
+                            controls
+                            style={{ width: "635px", height: "374px" }}
+                        >
+                        </video>
                     </div>
                     <div className="modal-action">
                         <form method="dialog">
@@ -137,11 +157,16 @@ function Play() {
                 </div>
             </dialog>
 
-            
+
             <dialog id="my_modal_5" className="modal">
                 <div className="modal-box w-full max-w-2xl h-180px">
                     <div className="aspect-w-9 aspect-h-16">
-                        <iframe src="/Therapy/video5.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{width: "635px" , height: "374px"}}></iframe>
+                    <video
+                            src="/Therapy/video6.mp4"
+                            controls
+                            style={{ width: "635px", height: "374px" }}
+                        >
+                        </video>
                     </div>
                     <div className="modal-action">
                         <form method="dialog">

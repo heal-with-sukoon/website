@@ -8,11 +8,11 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row justify-between items-center pb-8 border-b border-gray-700">
           {/* <div className="text-5xl font-bold font-Roca mb-4 sm:mb-0">Sukoon</div> */}
-          <img src="/logo.png" alt="" className='scale-50 -ml-44 -my-10'/>
+          <img src="/logo.png" alt="" className='scale-50 sm:-ml-32 -my-10'/>
 
-          <div className="flex space-x-2 sm:space-x-4">
-            <SocialIcon url="https://linkedin.com" style={{ height: 30, width: 30 }} className="!h-8 !w-8 sm:!h-10 sm:!w-10" />
-            <SocialIcon url="https://instagram.com" style={{ height: 30, width: 30 }} className="!h-8 !w-8 sm:!h-10 sm:!w-10" />
+          <div className="flex space-x-2 sm:space-x-6 mt-8 ">
+            <SocialIcon url="https://linkedin.com" style={{ height: 30, width: 30 } } className="!h-8 !w-8 sm:!h-10 sm:!w-10" />
+            <SocialIcon url="https://instagram.com/healwithsukoon" style={{ height: 30, width: 30 }} className="!h-8 !w-8 sm:!h-10 sm:!w-10" />
             <SocialIcon url="https://email.com/" style={{ height: 30, width: 30 }} className="!h-8 !w-8 sm:!h-10 sm:!w-10" />
           </div>
         </div>
@@ -20,8 +20,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold">Home</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="/about" className="hover:underline">About Us</a></li>
-              <li><a href="/support" className="hover:underline">Find Support</a></li>
+              <li><a href="/about-us" className="hover:underline">About Us</a></li>
+              <li><a href="/book" className="hover:underline">Find Support</a></li>
               <li><a href="/blogs" className="hover:underline">Blogs & Stories</a></li>
               <li><a href="/more" className="hover:underline">More</a></li>
             </ul>
@@ -30,16 +30,17 @@ const Footer = () => {
             <h3 className="text-xl font-semibold">Support</h3>
             <ul className="mt-4 space-y-2">
               <li><a href="/who-needs-help" className="hover:underline">Who Do You Think Needs Help?</a></li>
-              <li><a href="/book" className="hover:underline">Book a Session</a></li>
-              <li><a href="/heal" className="hover:underline">Heal With a Dost</a></li>
+              <li><a href="/book-session" className="hover:underline">Book a Session</a></li>
+              
             </ul>
           </div>
           <div>
             <h3 className="text-xl font-semibold">Services</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="/dream" className="hover:underline">AI Based Dream Analyzer</a></li>
-              <li><a href="/therapy" className="hover:underline">Audio & Video Therapy</a></li>
-              <li><a href="/detox" className="hover:underline">Digital Detox</a></li>
+              <li><a href="/dream-analyzer" className="hover:underline">AI Based Dream Analyzer</a></li>
+              <li><a href="/audio-video-therapy" className="hover:underline">Audio & Video Therapy</a></li>
+              <li><a href="/digital-detox" className="hover:underline">Digital Detox</a></li>
+              <li><a href="/talk-with-ai" className="hover:underline">Youth Corner</a></li>
             </ul>
           </div>
           <div>

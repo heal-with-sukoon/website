@@ -37,7 +37,7 @@ const AboutUs = () => {
 const TeamMember1 = ({ bgColor }) => (
   <div className='flex flex-col space-y-0 lg:space-y-0'>
     <TeamMember bgColor={bgColor} name="ANAMIKA AGGARWAL" position="Frontend Developer" index='1' />
-    <TeamMember bgColor={bgColor} name="ANUSHA TOMAR" position="AI &nbsp; Developer  " index='2' />
+    <TeamMember bgColor={bgColor} name="ANUSHA TOMAR" position="AI ML Developer  " index='2' />
 
   </div>
 );

@@ -30,7 +30,7 @@ function Card() {
         },
         {
             img: "/Famous/deepika.svg",
-            line: "Anxiety,depression and panic attacks are not signs of weakness but of remaining strong for way too long.",
+            line: "Anxiety, depression and panic attacks are not signs of weakness but of remaining strong for way too long.",
             by: "-Deepika Padukone",
             movie: "",
         },

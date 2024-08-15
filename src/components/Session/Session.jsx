@@ -19,7 +19,7 @@ function Session() {
           Accepting &nbsp;
           <span className='relative inline-block px-3'>
             <span className='relative inline-block'>
-              help
+              help 
               <img
                 src="/session/oval.svg"
                 alt="oval"

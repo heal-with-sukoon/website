@@ -50,19 +50,19 @@ const Navbar = () => {
               tabIndex={0}
               className="absolute top-full mt-2 -ml-32 bg-base-100 rounded-box w-44 shadow z-20"
             >
-              <li className="ml-3 py-1 text-base">
+              <li className="pl-3 py-1 text-base hover:bg-gray-200">
                 <Link to="/about-us">About Us</Link>
               </li>
-              <li className="ml-3 py-1 text-base">
+              <li className="pl-3 py-1 text-base hover:bg-gray-200">
                 <Link to="/dream-analyzer">Dream Analyzer</Link>
               </li>
-              <li className="ml-3 py-1 text-base">
+              <li className="pl-3 py-1 text-base hover:bg-gray-200">
                 <Link to="/digital-detox">Digital Detox</Link>
               </li>
-              <li className="ml-3 py-1 text-base">
+              <li className="pl-3 py-1 text-base hover:bg-gray-200">
                 <Link to="/audio-video-therapy">Audio/Video Therapy</Link>
               </li>
-              <li className="ml-3 py-1 text-base">
+              <li className="pl-3 py-1 text-base hover:bg-gray-200">
                 <Link to="/talk-with-ai">Youth Corner</Link>
               </li>
             </ul>

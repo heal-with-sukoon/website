@@ -27,8 +27,7 @@ export default function TherapistPage() {
         className="mySwiper bg-[#C7C2D9] z-10"
       >
         <SwiperSlide data-hash="slide1"><Card/></SwiperSlide>
-        <SwiperSlide data-hash="slide2"><Card/></SwiperSlide>
-        <SwiperSlide data-hash="slide3"><Card/></SwiperSlide>
+
        
       </Swiper>
     </>
