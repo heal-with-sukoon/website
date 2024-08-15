@@ -12,7 +12,7 @@
   background: var(--thumb-color, #5D4037);
   cursor: pointer;
   margin-left: -1px;
-  margin-top: -19px; /* to vertically center the thumb */
+  margin-top: -19px; 
 }
 
 .slider-thumb::-moz-range-thumb {

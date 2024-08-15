@@ -10,7 +10,7 @@ function Video() {
                 
                 {/* First Row */}
                 <div 
-                    className="col-span-3 bg-[#4A3A37] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer"
+                    className="col-span-3 bg-[#4A3A37] bg-[url('/heal.svg')] bg-no-repeat bg-cover p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer"
                     onClick={openModal1}
                 >
                     <div className="h-14 w-14 rounded-full bg-white flex items-center justify-center">
@@ -49,7 +49,7 @@ function Video() {
                 </div>
 
                 <div 
-                    className="col-span-3 bg-[#4A3A37] p-8 rounded-[40px] flex items-center justify-center cursor-pointer"
+                    className="col-span-3 bg-[#4A3A37] bg-[url('/heal.svg')] bg-no-repeat bg-cover p-8 rounded-[40px] flex items-center justify-center cursor-pointer"
                     onClick={openModal2}
                 >
                     <div className="h-14 w-14 rounded-full m-10 bg-white flex items-center justify-center">
