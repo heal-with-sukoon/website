@@ -33,7 +33,7 @@ function Audio() {
           Step away from the hustle and embrace calm with our digital detox meditations and soothing guidance
         </div>
         <div className="text-xl ml-4  mr-4 md:ml-14 md:mr-20 md:block hidden">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veniam velit reprehenderit aliquam ab quia voluptatibus, expedita laborum quasi, atque fugit sunt cum libero, fuga consectetur nobis quis quod exercitationem!
+          Treat yourself to some much-needed ‘me time’ with our digital detox meditations! Block out the toxic stress with our chill audio and video guides that help you relax and recharge. It’s your chance to swipe away the chaos and find your inner zen. Ready to mute the noise and level up your calm? Let’s vibe out together!
         </div>
 
         <div className="lg:block hidden flex items-center justify-center ml-20 md:ml-52 scale-100 md:scale-125 mt-20">
