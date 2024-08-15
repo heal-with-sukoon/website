@@ -33,9 +33,7 @@ function Audio() {
           From Screens to Serene—our guided Sleep Meditations Help you Unplug and Unwind.
         </div>
         <div className="text-xl ml-4 text-white mr-4 md:ml-14 md:mr-20 md:block hidden">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veniam velit reprehenderit aliquam ab quia voluptatibus, expedita laborum quasi, atque fugit sunt cum libero, fuga consectetur nobis quis quod exercitationem!
-        </div>
-
+          Time to unplug, bud! Swap those screens for some serious zen. Our sleep meditations are like a cozy playlist for your mind, taking you from scrolling to snoozing. Let’s vibe, relax, and recharge—because you deserve that dreamy reset!
         <div className="lg:block hidden flex items-center justify-center ml-20 md:ml-52 scale-100 md:scale-125 mt-20">
           <img
             src="/Meditation/Backward2.svg"
