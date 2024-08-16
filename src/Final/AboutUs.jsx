@@ -10,16 +10,15 @@ const AboutUs = () => {
           <div className="mt-3 text-6xl lg:text-8xl font-light mb-8 font-Bspring">US</div>
         </div>
         <p className="text-base lg:text-lg text-center lg:text-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur culpa, error blanditiis eius voluptates saepe excepturi perspiciatis itaque vitae ipsam! Aliquid fugiat quis quasi rerum nesciunt possimus cum iusto!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed amet sequi molestiae, excepturi delectus, esse maiores deleniti magnam repellendus sunt alias nulla voluptatem perferendis aperiam repudiandae. Eos assumenda officiis accusantium.
         </p>
         <br />
         <p className="text-base lg:text-lg text-center lg:text-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur culpa, error blanditiis eius voluptates saepe excepturi perspiciatis itaque vitae ipsam! Aliquid fugiat quis quasi rerum nesciunt possimus cum iusto!
-          
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima consequuntur obcaecati assumenda porro maiores aut libero, modi sunt aliquam deserunt natus, quaerat repellendus voluptate tenetur rerum omnis architecto suscipit quod?
         </p>
         <br />
         <p className="text-base lg:text-lg text-center lg:text-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur culpa, error blanditiis eius voluptates saepe excepturi perspiciatis itaque vitae ipsam! Aliquid fugiat quis quasi rerum nesciunt possimus cum iusto!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi explicabo ipsa est omnis nemo, deleniti sapiente eum illum exercitationem inventore non asperiores nostrum illo, blanditiis perspiciatis itaque accusamus, atque dolore?
           
         </p>
       </div>

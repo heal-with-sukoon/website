@@ -5,8 +5,7 @@ function Context() {
     <div className='flex flex-wrap bg-[#C7A9CF] p-6 md:p-12'>
       <div className='w-full flex '>
       <div className='w-full md:block hidden text-3xl md:text-5xl text-white font-bold md:text-left mt-4 md:mt-0'>
-        Lorem ipsum dolor amet, consectetur adipiscing elit.
-      </div>
+        Step into a world of understanding with our student therapy discounts and an AI voice- 'Sky', designed to care for your mental health🌞</div>
         <img
           src="/Talk/happy.svg"
           alt="happy"

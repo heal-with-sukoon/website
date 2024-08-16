@@ -5,7 +5,7 @@ function Steps() {
     <div className='p-6 md:p-20'>
       <div className='rounded-xl shadow-lg bg-[#695E91] mb-8 md:mb-14 md:mx-44 p-4 md:p-6 text-center'>
         <div className='text-white text-2xl md:text-4xl font-medium'>
-          labore et dolore magna aliqua. Ut enim ad minim veniam dolore magna aliqua.
+          Lessen the wallet pain by availing student discounts, following these 3 steps:
         </div>
       </div>
       <div className='flex flex-wrap justify-around'>
