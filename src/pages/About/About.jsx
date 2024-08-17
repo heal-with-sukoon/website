@@ -44,7 +44,7 @@ function About() {
         <div className='md:hidden block px-0 md:px-10 z-0 relative'><Breathe /></div>
       </div>
       <div className='lg:block hidden'>
-        <div className='text-[#3A409F] font-Roca text-5xl text-center p-4 font-bold'>Explore Sukoon More</div>
+        <div className='text-[#3A409F] font-Roca text-5xl text-center p-4 font-bold'>"Healing happens one moment at a time, and we're here to help ✨"</div>
         <Service />
       </div>
     </div>
