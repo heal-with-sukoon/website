@@ -4,27 +4,22 @@ import ReactAudioPlayer from 'react-audio-player';
 function Audio() {
     const audios = [
         {
-            img: "/AV/a1.svg",
-            song : "/Therapy/test.mp3"
+          img: "/AV/a1.svg",
+          song: "/Therapy-AV/audio1.mp3"
         },
         {
-            img: "/AV/a2.svg",
-            song : "/Therapy/test.mp3"
+          img: "/AV/a2.svg",
+          song: "/Therapy-AV/audio2.mp3"
         },
         {
-            img: "/AV/a3.svg",
-            song : "/Therapy/test.mp3"
+          img: "/AV/a3.svg",
+          song: "/Therapy-AV/audio3.mp3"
         },
         {
-            img: "/AV/a4.svg",
-            song : "/Therapy/test.mp3"
-        },
-        {
-            img: "/AV/a5.svg",
-            song : "/Therapy/test.mp3"
-        },
-       
-    ];
+          img: "/AV/a4.svg",
+          song: "/Therapy-AV/audio4.mp3"
+        }
+      ];
 
     const handleopen = (audio) => {
         const player = document.getElementsByClassName('player');
