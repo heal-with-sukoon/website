@@ -50,31 +50,19 @@ function QuesFamily() {
         setIsLoading(true);
         try {
             const chatSession = model.startChat({
-                generationConfig, history: [
-                    {
-                        role: "user",
-                        parts: [
-                            { text: "Question: Over the last 2 weeks, how often have you felt down, depressed, or hopeless?\nAnswer: Not at all\n\nQuestion: How often have you had little interest or pleasure in doing things?\nAnswer: Several days\n\nQuestion: How often have you had trouble falling or staying asleep, or sleeping too much?\nAnswer: Several days\n\nQuestion: How often have you felt tired or had little energy?\nAnswer: Several days\n\nQuestion: How often have you had trouble concentrating on things?\nAnswer: Several days" },
-                        ],
-                    },
-                    {
-                        role: "model",
-                        parts: [
-                            { text: "It sounds like you've been experiencing some challenges related to low mood and energy levels in recent weeks. While you haven't felt depressed or hopeless, the lack of interest in activities and feelings of fatigue are worth paying attention to.  Difficulties with sleep and concentration can also be indicators of mental stress. It's important to monitor these symptoms and explore potential causes.  Remember, everyone experiences ups and downs, but persistent changes in mood and energy can benefit from attention. \n" },
-                        ],
-                    },
-                ],
+                generationConfig, 
             });
-
+    
             const result = await chatSession.sendMessage(prompt);
             const response = await result.response;
-            const text = response.text();
+            const text = await response.text(); 
             setLlmResponse(text);
             return text;
         } finally {
             setIsLoading(false);
         }
     }
+    
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [answers, setAnswers] = useState([]);
     const [showAnalysis, setShowAnalysis] = useState(false);
