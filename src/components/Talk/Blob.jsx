@@ -11,7 +11,7 @@ function Blob() {
 
     return (
         <div className='blob-wrapper' style={{
-            position: 'relative', width: '500px', height: '500px', transform: isClicked ? 'scale(0.8)' : 'scale(1)',
+            position: 'relative', width: '620px', height: '600px', transform: isClicked ? 'scale(0.8)' : 'scale(1)',
             transition: 'transform 0.3s ease'
         }}
             onClick={handleClick}
