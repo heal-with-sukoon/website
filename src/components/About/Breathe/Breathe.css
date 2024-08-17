@@ -24,12 +24,12 @@
   color: #333; 
 }
 
-@media screen and (max-width : 400px) {
+/* @media screen and (max-width : 400px) {
   .circle2 {
     top: 50%;
-    left:66%;
+    left:56%;
   }
-}
+} */
 @media screen and (min-width : 400px) and (max-width : 700px) {
   .circle2 {
     top: 50%;

@@ -9,7 +9,7 @@ function About() {
   };
 
   // Add transition to the style classes
-  const style = open ? 'ml-0' : 'w-full -ml-64 mr-[300px]';
+  const style = open ? 'ml-0' : 'w-full -ml-72 mr-[300px]';
 
   return (
     <div>

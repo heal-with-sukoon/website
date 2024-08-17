@@ -42,18 +42,18 @@ function Video() {
                         </svg>
                     </div>                
                 </div>
-                
+                 
                 {/* Second Row */}
-                <div className="sm:block text-white hidden col-span-2 bg-[#4C5DB5] p-8 rounded-[40px] flex items-center justify-center">
-                    <img src="/Meditation/mod.svg" alt="sad" />
+                <div className=" text-white col-span-2 bg-[#4C5DB5] h-52 p-2 rounded-[40px] flex items-center justify-center">
+                    <img src="/Meditation/h2.svg" alt="sad" className='scale-75'/>
                 </div>
 
-                <div className="col-span-2 text-white bg-[#7A75BC] p-8 rounded-[40px] flex items-center justify-center">
-                <img src="/Meditation/calm.svg" alt="sad" />
+                <div className="col-span-2 text-white bg-[#7A75BC] h-52 p-2 rounded-[40px] flex items-center justify-center">
+                <img src="/Meditation/m1.svg" alt="sad" className='scale-75'/>
                 </div>
 
-                <div className="col-span-2 bg-[#4C5DB5] text-white p-8 rounded-[40px] flex items-center justify-center">
-                <img src="/Meditation/happy.svg" alt="sad" />
+                <div className="col-span-2 bg-[#4C5DB5] text-white h-52 p-6 rounded-[40px] flex items-center justify-center">
+                <img src="/Meditation/s1.svg" alt="sad" className='scale-75'/>
                 </div>
                 
                 {/* Third Row */}
