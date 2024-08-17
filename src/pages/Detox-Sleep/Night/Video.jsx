@@ -5,12 +5,12 @@ function Video() {
     const openModal2 = () => document.getElementById('my_modal_2').showModal();
 
     return (
-        <div className="p-5 mb-10 mt-10">
+        <div className="px-20 mb-10 mt-10">
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6">
                 
                 {/* First Row */}
                 <div 
-                    className="col-span-3 bg-[#0D1E44] p-8 h-52 rounded-[40px] flex items-center justify-center cursor-pointer"
+                    className="col-span-3 bg-[#0D1E44] p-8 h-52 bg-[url('/Meditation/n1.svg')] bg-no-repeat bg-cover rounded-[40px] flex items-center justify-center cursor-pointer"
                     onClick={openModal1}
                 >
                     <div className="h-14 w-14 rounded-full bg-white flex items-center justify-center">
@@ -26,30 +26,56 @@ function Video() {
                     </div>                
                 </div>
 
-                <div className="col-span-3 bg-[#A9C6FF] p-8 rounded-[40px] flex items-center justify-center">
-                    <p className="text-2xl font-cursive text-center">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+                <div 
+                    className="col-span-3 bg-[#0D1E44] p-8 h-52 bg-[url('/Meditation/n2.svg')] bg-no-repeat bg-cover rounded-[40px] flex items-center justify-center cursor-pointer"
+                    onClick={openModal1}
+                >
+                    <div className="h-14 w-14 rounded-full bg-white flex items-center justify-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            width="24"
+                            viewBox="0 0 384 512"
+                            className="fill-black"
+                        >
+                            <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                        </svg>
+                    </div>                
                 </div>
                 
                 {/* Second Row */}
                 <div className="sm:block text-white hidden col-span-2 bg-[#4C5DB5] p-8 rounded-[40px] flex items-center justify-center">
-                    <p className="text-2xl font-cursive text-center">Why Meditation</p>
+                    <img src="/Meditation/mod.svg" alt="sad" />
                 </div>
 
                 <div className="col-span-2 text-white bg-[#7A75BC] p-8 rounded-[40px] flex items-center justify-center">
-                    <p className="text-2xl font-cursive text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus doloribus ab explicabo. Laborum provident debitis impedit voluptate nesciunt consequatur veritatis ab sit nostrum, adipim temporibus?</p>
+                <img src="/Meditation/calm.svg" alt="sad" />
                 </div>
 
                 <div className="col-span-2 bg-[#4C5DB5] text-white p-8 rounded-[40px] flex items-center justify-center">
-                    <p className="text-2xl font-cursive text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rat odio voluptatibus sapiente sequi, corporis libero repellat. Unde officiis porro corporis a numquam consectetur?</p>
+                <img src="/Meditation/happy.svg" alt="sad" />
                 </div>
                 
                 {/* Third Row */}
-                <div className="sm:block hidden col-span-3 bg-[#A9C6FF] p-8 rounded-[40px] h-52 flex items-center justify-center">
-                    <p className="text-2xl font-cursive text-center">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+                <div 
+                    className="col-span-3 bg-[#0D1E44] p-8 bg-[#0D1E44] p-8 h-52 bg-[url('/Meditation/n3.svg')] bg-no-repeat bg-cover rounded-[40px] flex items-center justify-center cursor-pointer"
+                    onClick={openModal2}
+                >
+                    <div className="h-14 w-14 rounded-full m-10 bg-white flex items-center justify-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            width="24"
+                            viewBox="0 0 384 512"
+                            className="fill-black"
+                        >
+                            <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                        </svg>
+                    </div>
                 </div>
 
                 <div 
-                    className="col-span-3 bg-[#0D1E44] p-8 rounded-[40px] flex items-center justify-center cursor-pointer"
+                    className="col-span-3 bg-[#0D1E44] p-8 rounded-[40px] bg-[#0D1E44] p-8 h-52 bg-[url('/Meditation/n4.svg')] bg-no-repeat bg-cover flex items-center justify-center cursor-pointer"
                     onClick={openModal2}
                 >
                     <div className="h-14 w-14 rounded-full m-10 bg-white flex items-center justify-center">

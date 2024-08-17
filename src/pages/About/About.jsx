@@ -15,12 +15,17 @@ function About() {
     <div>
       <div className='bg-[#E3DFF8] md:flex md:flex-nowrap relative'>
         <div className='mdpx-0 md:px-10 md:block hidden '><Breathe /></div>
-        <div className='text-xl md:block hidden md:text-3xl flex items-center pb-5 px-10 md:mt-10 md:mb-20 md:px-20'>
-          Welcome to Sukoon!
-          <br /><br />
+        <div className='text-xl   md:block hidden md:text-3xl flex items-center pb-5 px-10 md:mt-10 md:mb-20 md:px-20'>
+         <div className='font-rocaThin font-extrabold text-4xl'>
+         Welcome to Sukoon !
+         </div>
+          
+          <div className='mt-7 mb-6'>
           Your one of a kind safe space for mental health. With a beautifully crafted fusion of AI in the field of mental health, something truly special to help and support you. It's more than just a place to book therapy sessions; it's a resource designed to help you find peace and balance using the power of technology. Whether you're looking for professional support, tools to lift your mood, or helpful information, Sukoon is here for you, with special support available for young adults and teenagers.
-          <br /><br />
+          </div>
+          <div className='text-3xl font-medium'>
           Find your Sukoon Now 🌻
+          </div>
         </div>
         <div className={`absolute z-20 md:hidden block transition-all duration-500 ease-in-out h-32 ${style}`}>
           <div className={`h-[430px] mt-6 bg-black text-white rounded-xl flex p-3 z-20`}>

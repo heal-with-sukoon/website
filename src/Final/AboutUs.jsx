@@ -5,22 +5,24 @@ const AboutUs = () => {
   return (
     <div className="flex flex-col lg:flex-row bg-white min-h-screen">
       <div className="flex-1 flex flex-col justify-center items-start px-4 lg:px-10 py-8 lg:py-0">
-        <div className='text-center lg:text-end lg:ml-52 lg:-mt-24 w-full lg:w-auto'>
+        <div className='text-center lg:text-end lg:ml-52  w-full lg:w-auto'>
           <div className="text-6xl lg:text-8xl font-bold font-hanoble">ABOUT</div>
           <div className="mt-3 text-6xl lg:text-8xl font-light mb-8 font-Bspring">US</div>
         </div>
         <p className="text-base lg:text-lg text-center lg:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed amet sequi molestiae, excepturi delectus, esse maiores deleniti magnam repellendus sunt alias nulla voluptatem perferendis aperiam repudiandae. Eos assumenda officiis accusantium.
+          Welcome to Sukoon! We're Ayesha, Anamika, Pranitdeep, and Anusha - four UG CS students who started this platform with a simple belief: everyone deserves access to mental health support, no matter their age or walk of life. Our journey began with our own experiences navigating the challenges of student life, but it's grown into something much bigger.
+
         </p>
         <br />
         <p className="text-base lg:text-lg text-center lg:text-left">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima consequuntur obcaecati assumenda porro maiores aut libero, modi sunt aliquam deserunt natus, quaerat repellendus voluptate tenetur rerum omnis architecto suscipit quod?
+
+          As we've moved through our academic careers, we've not only faced our own mental health challenges but also witnessed close friends and family members struggle silently. We've seen brilliant minds cage themselves, afraid to seek help due to stigma or lack of resources. These experiences opened our eyes to a universal truth: mental health affects us all, regardless of age, background, or profession.
         </p>
         <br />
-        <p className="text-base lg:text-lg text-center lg:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi explicabo ipsa est omnis nemo, deleniti sapiente eum illum exercitationem inventore non asperiores nostrum illo, blanditiis perspiciatis itaque accusamus, atque dolore?
-          
-        </p>
+        {/* <p className="text-base lg:text-lg text-center lg:text-left pb-10">
+        Sukoon, Hindi for 'peace', is our answer to universal mental health needs. We've built a sanctuary for all, breaking barriers to well-being. Our edge? AI-driven activities that personalize and uplift. We're creating a world where seeking help is strength and mental health is openly discussed. Join us in making mental wellness a priority for everyone.
+
+        </p> */}
       </div>
 
       <img src="/AboutUs/BLine.svg" alt="line" className='hidden lg:block mr-5' />
@@ -50,7 +52,7 @@ const TeamMember2 = ({ bgColor }) => (
 );
 
 const TeamMember = ({ bgColor, name, position, index }) => {
-  const style3 = (index == 1 ) ? 'border-t-4,sm:border-t-0' : '';
+  const style3 = (index == 1) ? 'border-t-4,sm:border-t-0' : '';
   const style1 = (index == 1 || index == 2) ? 'hidden' : 'block';
   const style2 = (index == 3 || index == 4) ? 'md:block hidden' : '';
   return (

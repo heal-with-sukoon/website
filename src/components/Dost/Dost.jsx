@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 function Dost() {
-    return (
+    return ( 
         <div className='p-4'>
             <div className='flex flex-col md:flex-row justify-around'>
                 <div className=''>
-                    <div className='font-Roca text-4xl sm:text-5xl md:text-6xl text-white p-6 md:p-14 pt-10 md:pt-20 ' >
-                       <span className='underline decoration-[#798291]'>Student Support Hub:</span>
+                    <div className='font-Roca text-4xl sm:text-5xl md:text-6xl text-[#7b36d6] p-6 md:p-14 pt-10 md:pt-20 ' >
+                       <span className='underline decoration-black'>Student Support Hub:</span>
                     <div className='mt-10'> Affordable Therapy & Round-the-Clock AI Companion.</div>
                     </div>
                     <Link to= '/talk-with-ai' >

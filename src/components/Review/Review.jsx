@@ -29,7 +29,7 @@ function Review() {
     return (
         <div ref={container} className='relative -mb-24'>
             <motion.div 
-                className='text-4xl md:text-6xl font-hanoble pt-14 text-center z-50  bg-[#E3DFF8]' 
+                className='text-4xl md:text-6xl font-hanoble pt-14 text-center z-10  bg-[#E3DFF8]' 
                 style={{ position: isSticky, top: 0 }}
             >
                 You Are Not Alone

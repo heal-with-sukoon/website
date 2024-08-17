@@ -74,7 +74,7 @@ function Audio() {
           <img
             src="/Meditation/women.svg"
             alt="women"
-            className="relative scale-90 md:scale-150"
+            className="relative scale-90 md:scale-[1.7]"
           />
           <img
             src="/Meditation/flower.svg"

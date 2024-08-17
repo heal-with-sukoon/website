@@ -30,10 +30,12 @@ function Audio() {
     <div className="flex flex-col md:flex-row bg-[#0D1E44] pb-20 md:pb-0">
       <div>
         <div className="text-xl text-white font-bold m-4 md:m-14">
-          From Screens to Serene—our guided Sleep Meditations Help you Unplug and Unwind.
+        From Screens to Serene—our guided Sleep Meditations Help you Unplug and Unwind.
         </div>
-        <div className="text-xl ml-4 text-white mr-4 md:ml-14 md:mr-20 md:block hidden">
-          Time to unplug, bud! Swap those screens for some serious zen. Our sleep meditations are like a cozy playlist for your mind, taking you from scrolling to snoozing. Let us vibe, relax, and recharge—because you deserve that dreamy reset!
+        <div className="text-xl text-white ml-4  mr-4 md:ml-14 md:mr-20 md:block hidden">
+        Time to unplug, bud! Swap those screens for some serious zen. Our sleep meditations are like a cozy playlist for your mind, taking you from scrolling to snoozing. Let us vibe, relax, and recharge—because you deserve that dreamy reset!
+        </div>
+
         <div className="lg:block hidden flex items-center justify-center ml-20 md:ml-52 scale-100 md:scale-125 mt-20">
           <img
             src="/Meditation/Backward2.svg"
@@ -68,7 +70,7 @@ function Audio() {
       </div>
 
       <div className="flex justify-center items-center my-10 md:mr-36 md:my-32 relative">
-        <div className="relative">
+      <div className="relative">
           <img
             src="/Meditation/men.svg"
             alt="women"
@@ -77,7 +79,7 @@ function Audio() {
           <img
             src="/Meditation/daisy.svg"
             alt="flower"
-            className="absolute right-32 -bottom-28 md:right-44 scale-50 md:scale-100"
+            className="absolute right-32 -bottom-28 md:right-36 scale-50 md:scale-110"
           />
           <img
             src="/Meditation/moon.svg"
@@ -117,7 +119,6 @@ function Audio() {
             className="cursor-pointer mx-3 pt-10"
           />
         </div>
-    </div>
     </div>
   );
 }

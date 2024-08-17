@@ -6,13 +6,13 @@ const theme = createTheme();
 function Card() {
   return (
     <ThemeProvider theme={theme}>
-      <div className='flex flex-wrap justify-evenly bg-white shadow-lg rounded-3xl mx-4 sm:mx-10 lg:mx-20 my-10 sm:my-14 p-6'>
+      <div className='flex flex-wrap justify-evenly bg-[#e6e7ed] shadow-lg rounded-3xl mx-4 sm:mx-10 lg:mx-20 my-10 sm:my-10 p-6'>
         <div className='w-full sm:w-auto flex justify-center'>
           <img src="/Therapist/c1.svg" alt="therapist" className='my-4 sm:my-14' />
         </div>
         <img src="/Therapist/line.svg" alt="line" className='hidden lg:block' />
         <div className='w-full sm:w-auto mt-4 sm:mt-0 text-center sm:text-left'>
-          <div className='text-2xl sm:text-4xl font-medium'>Dr. Veronica Smith</div>
+          <div className='text-2xl sm:text-4xl font-medium'>Dr. John Doe</div>
           <img src="/Therapist/line2.svg" alt="line" className='mt-3 sm:mt-6 mx-auto sm:mx-0' />
 
           <Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly className='scale-125 sm:scale-150 mx-auto sm:mx-7 mt-3 sm:mt-5' />
@@ -33,7 +33,12 @@ function Card() {
               Book Session
             </button>
           </div>
+          <div className='mt-14 bg-[#8c96ed] p-3 rounded-xl text-xl text-white'>
+          Currently we are working on collaborating with the best therapist for you 🌟. 
+          <div className='mt-3'>Till then you can enjoy other features on sukoon 🌿</div>
+          </div>
         </div>
+        
       </div>
     </ThemeProvider>
 

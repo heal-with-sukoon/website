@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Blob() {
@@ -6,7 +6,7 @@ function Blob() {
 
     const handleClick = () => {
         setIsClicked(true);
-        setTimeout(() => setIsClicked(false), 300); 
+        setTimeout(() => setIsClicked(false), 300);
     };
 
     return (
@@ -14,7 +14,7 @@ function Blob() {
             position: 'relative', width: '500px', height: '500px', transform: isClicked ? 'scale(0.8)' : 'scale(1)',
             transition: 'transform 0.3s ease'
         }}
-        onClick={handleClick}
+            onClick={handleClick}
         >
             <svg
                 viewBox="0 0 892 876"
@@ -73,19 +73,13 @@ function Blob() {
             >
                 <div style={{ display: 'flex', gap: '40px' }}>
                     {/* Left Eye */}
-                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="30" viewBox="0 0 130 59" fill="none">
-                        <path d="M10.5847 13.2344C10.5847 13.2344 9.67786 12.9194 7.3654 7.95411C5.05294 2.98883 14.4725 19.0197 14.4725 19.0197L10.5847 13.2344ZM10.5847 13.2344C10.5847 13.2344 15.6765 18.9243 25.3613 25.9688C35.046 33.0133 47.4263 37.6828 62.5021 39.9773C77.5779 42.2718 94.8437 35.3768 110.905 25.9688C126.966 16.5608 127.031 18.736 111.1 32.4945C95.1694 46.253 77.4144 54.7156 61.2298 51.2059C45.0452 47.6963 32.2664 41.1433 22.8934 31.547L10.5847 13.2344Z" stroke="black" stroke-width="7" stroke-linecap="round" />
-                    </svg>
+                    <img src="/blob/eye1.svg" alt="eye" className='scale-[.6]'/>
 
                     {/* Right Eye */}
-                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="30" viewBox="0 0 130 59" fill="none">
-                        <path d="M10.3066 13.2344C10.3066 13.2344 9.47009 12.9194 7.33705 7.95411C5.204 2.98883 14.4721 19.0197 14.4721 19.0197L10.3066 13.2344ZM10.3066 13.2344C10.3066 13.2344 15.4937 18.9243 25.3374 25.9688C35.1811 33.0133 47.7088 37.6828 62.9457 39.9773C78.1826 42.2718 95.6583 35.3768 111.946 25.9688C128.234 16.5608 128.301 18.736 111.987 32.4945C95.6738 46.253 77.8103 54.7156 61.4894 51.2059C45.1686 47.6963 32.2972 41.1433 22.7553 31.547L10.3066 13.2344Z" stroke="black" stroke-width="7" stroke-linecap="round" />
-                    </svg>
+                    <img src="/blob/eye2.svg" alt="eye" className='scale-[.6]'/>
                 </div>
                 {/* Mouth */}
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="30" viewBox="0 0 202 113" fill="none">
-                    <path d="M9 18.3127C9 18.3127 1.13249 36.9828 18.5433 60.2262C35.9542 83.4697 89.9917 108.5 101.321 108.5C112.651 108.5 165.699 84.5077 183.421 60.2262C201.142 35.9446 192.297 17.5392 192.297 17.5392" stroke="black" stroke-width="15" stroke-linecap="round" />
-                </svg>
+                <img src="/blob/mouth.svg" alt="eye" className='scale-[.6] mt-3'/>
             </div>
         </div>
     );

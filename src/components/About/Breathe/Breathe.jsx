@@ -7,7 +7,7 @@ function Breathe() {
   useEffect(() => {
     const interval = setInterval(() => {
       setText((prev) => (prev === 'Inhale' ? 'Exhale' : 'Inhale'));
-    }, 6500); 
+    }, 7000); 
 
     return () => clearInterval(interval); 
   }, []);
@@ -15,7 +15,7 @@ function Breathe() {
   return (
     <div className='relative scale-[.5] -ml-[76px] -mt-44 -mb-24 sm:mt-0 sm:ml-10 sm:scale-90 '>
       <div className="circle2">
-        {text}
+        <div className='font-Roca font-bold text-3xl'>{text}</div>
       </div>
       <div className="wrapper">
         <div className="circle blue"></div>
