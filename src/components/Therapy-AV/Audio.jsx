@@ -23,10 +23,7 @@ function Audio() {
             img: "/AV/a5.svg",
             song : "/Therapy/test.mp3"
         },
-        {
-            img: "/AV/Frame4.svg",
-            song : "/Therapy/test.mp3"
-        },
+       
     ];
 
     const handleopen = (audio) => {
@@ -52,7 +49,7 @@ function Audio() {
             <ReactAudioPlayer
                 src="/Meditation/test.mp3"
                 controls
-                className='player scale-110 mt-8 block sm:hidden ml-16'
+                className='player scale-100 mt-8 block sm:hidden '
             />
 
             <div className='flex justify-center items-center py-16 flex-wrap'>
@@ -61,7 +58,7 @@ function Audio() {
                         key={index}
                         src={audio.img}
                         alt= "image"
-                        className='pr-6 cursor-pointer mb-4 md:mb-0'
+                        className='md:pr-14 cursor-pointer mb-4 md:mb-0'
                         onClick={() => handleopen(audio.song)}
                     />
                 ))}

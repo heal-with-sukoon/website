@@ -20,6 +20,9 @@ import Talk from './Final/Talk.jsx'
 import AboutUs from './Final/AboutUs.jsx'
 import TherapyPage from './Final/TherapyPage.jsx'
 import Blogs from './pages/Blog/Blogs.jsx'
+import Ques from './components/Ques/meQues.jsx'
+import QuesFamily from './components/Ques/familyQues.jsx'
+import QuesFriend from './components/Ques/friendQues.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -34,6 +37,9 @@ const router = createBrowserRouter(
       <Route path="about-us" element={<AboutUs />} />
       <Route path="audio-video-therapy" element={<TherapyPage />} />
       <Route path="blogs" element={<Blogs />} />
+      <Route path="my-questions" element={<Ques />} />
+      <Route path="family-questions" element={<QuesFamily />} />
+      <Route path="friend-questions" element={<QuesFriend />} />
     </Route>
 
 

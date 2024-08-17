@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Help() {
   const cards = [
-    { img: "/Help/me.svg", text: "Me" },
+    { img: "/Help/me.svg", text: "Me"  },
     { img: "/Help/friend.svg", text: "Friend" },
     { img: "/Help/family.svg", text: "Family Member" },
   ];
@@ -45,7 +45,9 @@ function Help() {
           <div className="relative h-80 sm:h-96 flex items-center justify-center">
             <AnimatePresence initial={false}>
               {cards.map((card, index) => (
+                
                 <motion.div
+                
                   key={index}
                   className={`absolute inset-0 w-full h-full`}
                   initial={{ opacity: 0, scale: 0.8 }}
@@ -56,7 +58,11 @@ function Help() {
                   exit={{ opacity: 0, scale: 0.8 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <Link to={card.link} className="relative w-full h-full block">
+                  <Link to={
+                     index === 0 ? "/my-questions" :
+                     index === 1 ? "/friend-questions" :
+                     "/family-questions"
+                  } className="relative w-full h-full block">
                     <img
                       src={card.img}
                       className="w-full object-cover  rounded-box mt-0 sm:mt-0 lg:-mt-4 scale-100 sm:scale-110 lg:scale-110"
