@@ -5,9 +5,7 @@ function Doodle() {
     return (
         <div className='bg-[#EDEBE9] p-20 ' >
             <div className=' relative  flex justify-center align-center font-galpike text-8xl text-white ' style={{ WebkitTextStroke: '2px black' }}>Fun
-                <span className='ml-5 z-20 font-bold text-black text-8xl z-10'>Fact
-
-                </span>
+                <span className='ml-5 z-20 font-bold text-black text-8xl z-10'>Fact</span>
                 <img src="/Meditation/y-bg.svg" alt="bg" className='absolute scale-[.65] -top-10 right-96' />
             </div>
 

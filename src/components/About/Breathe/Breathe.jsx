@@ -14,7 +14,7 @@ function Breathe() {
 
   return (
     <div className='relative scale-[.5] -ml-[76px] -mt-44 -mb-24 sm:mt-0 sm:ml-10 sm:scale-90 '>
-      <div className="circle2">
+      <div className="circle2 ml-7 md:ml-0">
         <div className='font-Roca font-bold text-3xl'>{text}</div>
       </div>
       <div className="wrapper">

@@ -47,17 +47,17 @@ const Acard = () => {
           onClick={closeModal}
         >
           <div 
-            className={`bg-white rounded-lg w-full md:w-10/12 overflow-y-auto transition-all duration-300 ${
+            className={`bg-white rounded-lg  md:w-10/12 overflow-y-auto transition-all duration-300 ${
               isModalOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
             }`}
            
           >
-            <div className="p-6 ">
+            <div className="p-6 md:h-auto h-[600px] ">
               <h3 className="font-bold text-lg mb-4 ">{selectedBlog.heading}</h3>
               <p className="mb-6">{selectedBlog.content}</p>
               <div className="text-right">
                 <button 
-                  className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-300" 
+                  className="px-4 py-2 mb-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-300" 
                   onClick={closeModal}
                 >
                   Close

@@ -44,16 +44,16 @@ function Video() {
                 </div>
 
                 {/* Second Row */}
-                <div className="sm:block hidden col-span-2 bg-[#D5C5B5] p-8 rounded-[40px] flex items-center justify-center">
-                    <p className="text-2xl font-cursive text-center">Why Meditation</p>
+                <div className=" col-span-2 bg-[#D5C5B5] h-52 p-2 rounded-[40px] flex items-center justify-center">
+                <img src="/Meditation/h2.svg" alt="sad" className='scale-75'/>
                 </div>
 
-                <div className="col-span-2 bg-[#F7E0BD] p-8 rounded-[40px] flex items-center justify-center">
-                    <p className="text-2xl font-cursive text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus doloribus ab explicabo. Laborum provident debitis impedit voluptate nesciunt consequatur veritatis ab sit nostrum, adipim temporibus?</p>
+                <div className="col-span-2 bg-[#F7E0BD] h-52 p-2 rounded-[40px] flex items-center justify-center">
+                <img src="/Meditation/m1.svg" alt="sad" className='scale-75'/>
                 </div>
 
-                <div className="col-span-2 bg-[#4A3A37] text-white p-8 rounded-[40px] flex items-center justify-center">
-                    <p className="text-2xl font-cursive text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rat odio voluptatibus sapiente sequi, corporis libero repellat. Unde officiis porro corporis a numquam consectetur?</p>
+                <div className="col-span-2 bg-[#4A3A37] text-white h-52 p-2 rounded-[40px] flex items-center justify-center">
+                <img src="/Meditation/s1.svg" alt="sad" className='scale-75'/>
                 </div>
 
                 {/* Third Row */}
